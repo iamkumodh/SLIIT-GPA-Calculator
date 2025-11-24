@@ -1,0 +1,2898 @@
+{
+  "facultyCode": "FOHS",
+  "facultyName": "Faculty of Humanities and Sciences",
+  "wgpaWeights": {
+    "FHS_4Year_Programs": {
+      "Year1": "0%",
+      "Year2": "20%",
+      "Year3": "30%",
+      "Year4": "50%"
+    }
+  },
+  "degreeClassification": [
+    {
+      "name": "First Class Honours",
+      "minWGPA": 3.7,
+      "maxWGPA": 4.0
+    },
+    {
+      "name": "Second Class Honours (Upper)",
+      "minWGPA": 3.3,
+      "maxWGPA": 3.69
+    },
+    {
+      "name": "Second Class Honours (Lower)",
+      "minWGPA": 3.0,
+      "maxWGPA": 3.29
+    },
+    {
+      "name": "Third Class",
+      "minWGPA": 2.0,
+      "maxWGPA": 2.99
+    },
+    {
+      "name": "Pass",
+      "minWGPA": 0.0,
+      "maxWGPA": 1.99
+    },
+    {
+      "name": "General_Requirements",
+      "minWGPA": 0.0,
+      "maxWGPA": 0.0
+    }
+  ],
+  "programs": {
+    "Biotechnology": {
+      "name": "Biotechnology",
+      "courses": [
+        {
+          "code": "BT1112",
+          "name": "Analytical and Physical Chemistry",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BT1121",
+          "name": "Analytical and Physical Chemistry Laboratory",
+          "credits": 1,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BT1133",
+          "name": "Introduction to Biology",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BT1142",
+          "name": "English",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BT1152",
+          "name": "Introduction to Info. Technology",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BT1163",
+          "name": "Introduction to Biotechnology",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BT1172",
+          "name": "Laboratory Safety and Management",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BT1212",
+          "name": "Organic Chemistry",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BT1221",
+          "name": "Organic Chemistry Laboratory",
+          "credits": 1,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BT1233",
+          "name": "Mathematics and Biophysics",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BT1243",
+          "name": "Introduction to Molecular Biology",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BT1253",
+          "name": "Microbiology",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BT1263",
+          "name": "Cell Biology",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BT1272",
+          "name": "Genetics",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BT2313",
+          "name": "Animal and Human Physiology",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BT2322",
+          "name": "Introductory Bioinformatics",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BT2332",
+          "name": "Genome Structure and Organization",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BT2343",
+          "name": "Molecular Biology",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BT2352",
+          "name": "Plant Physiology",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BT2363",
+          "name": "Bio-Statistics",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BT2413",
+          "name": "Animal Cell Culture",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BT2423",
+          "name": "Biochemistry",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BT2433",
+          "name": "Plant and Animal Breeding",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BT2443",
+          "name": "Food Biotechnology",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BT2453",
+          "name": "Techniques in Molecular Biotechnology",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BT2463",
+          "name": "Plant Tissue Culture and Laboratory",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BT3512",
+          "name": "Omic Science",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BT3522",
+          "name": "Genetic Engineering",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BT3533",
+          "name": "Bioinformatics",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BT3543",
+          "name": "Biotechnology for Crop and Animal Improvement",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BT3553",
+          "name": "Environmental Biotechnology",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BT3563",
+          "name": "Plant Pest and Diseases",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BT3613",
+          "name": "Industrial Biotechnology",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BT3623",
+          "name": "Organizational Leadership",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BT3632",
+          "name": "Protein Engineering",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BT3643",
+          "name": "Immunology",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BT3653",
+          "name": "Human Genome and Medical Biotechnology",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BT3662",
+          "name": "Introduction to Nano-Technology",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BT4713",
+          "name": "Experimental Design and Research Methodology",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BT4722",
+          "name": "Regulation in Gene Expression",
+          "credits": 2,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BT4732",
+          "name": "Biosafety Regulations and Ethics",
+          "credits": 2,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BT4743",
+          "name": "Introduction to Business Management and Entrepreneurship",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BT4752",
+          "name": "Quality Control Management of food Products",
+          "credits": 2,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BT4763",
+          "name": "Advanced Molecular Biology (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BT4773",
+          "name": "Advanced Bioinformatics (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BT4783",
+          "name": "Bioprocessing (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BT4813",
+          "name": "Forensic in Biotechnology (Optional)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "BT4828",
+          "name": "Research Project",
+          "credits": 8,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "BT4833",
+          "name": "Internship",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Information Technology": {
+      "name": "Information Technology",
+      "courses": [
+        {
+          "code": "P1",
+          "name": "Psychological Bases of Education",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "G1",
+          "name": "General English/Foreign Language",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "A4.11",
+          "name": "Introduction to Programming",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "A4.12",
+          "name": "Information Systems and Data Modeling",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "A4.13",
+          "name": "Mathematics for Computing",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "P2",
+          "name": "Philosophical and Sociological Bases of Education",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "P7",
+          "name": "Student Counselling",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "A4.14",
+          "name": "Introduction to Computer Systems",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "A4.15",
+          "name": "Computer Networks",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "P3",
+          "name": "Planning and Management in Education",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "G5",
+          "name": "Physical Education or Aesthetic Education",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "A4.21",
+          "name": "Computer Graphics and Multimedia",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "A4.22",
+          "name": "Software Process Modelling",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "A4.23",
+          "name": "Web Application Development",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "P4",
+          "name": "Assessment and Evaluation of Student Progress",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "A4.24",
+          "name": "Advanced Programming",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "A4.25",
+          "name": "Design and Analysis of Algorithms",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "A4.26",
+          "name": "Database Management Systems",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "P5",
+          "name": "Contemporary Education Issues Problems & Policies",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "P8",
+          "name": "General Strategies of Teaching and Learning",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "G3",
+          "name": "Soft skills - Professional grooming Presentation skills and Effective communication",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "A4.31",
+          "name": "Operating Systems",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "A4.32",
+          "name": "Network Design and Management",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "P6",
+          "name": "School Curriculum Theory and Process",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "P9",
+          "name": "Subject Specific Teaching and Learning Methods",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "A4.33",
+          "name": "Information Technology Project Management",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "A4.34",
+          "name": "Mobile Application Development",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "G4",
+          "name": "Research Methods",
+          "credits": 2,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "G4",
+          "name": "Research Project",
+          "credits": 6,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "G6",
+          "name": "Practicum (Teaching Practice)",
+          "credits": 6,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "A4.41",
+          "name": "Modern Topics in IT",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "A4.42",
+          "name": "Data Mining and Warehouse",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "G7",
+          "name": "Portfolio (Introduction should be done in Y1/S1)",
+          "credits": 2,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "G4",
+          "name": "Research Project",
+          "credits": 6,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "A4.43",
+          "name": "Software Quality Assurance",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "A4.44",
+          "name": "Artificial Intelligence",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Physical Sciences": {
+      "name": "Physical Sciences",
+      "courses": [
+        {
+          "code": "ED1013",
+          "name": "Philosophical Foundation in Education",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "ED1022",
+          "name": "ICT for Education",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "ED1062",
+          "name": "General English",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "MA1014",
+          "name": "Pre-calculus",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "MA1023",
+          "name": "Discrete Mathematics",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "SC1033",
+          "name": "General Physics I",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "SC1041",
+          "name": "Physics Practical 1",
+          "credits": 1,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "ED1033",
+          "name": "Psychological Foundation of Education",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "ED1043",
+          "name": "Teaching Methods - General & Special",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "ED1052",
+          "name": "Sociological Foundation of Education",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "MA1054",
+          "name": "Differential Calculus",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "MA1063",
+          "name": "Probability Theory and Statistics",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "SC1073",
+          "name": "General Physics II",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "SC1081",
+          "name": "Physics Practical 2",
+          "credits": 1,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "ED2013",
+          "name": "Comparative Education",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "ED2022",
+          "name": "Guidance and Counselling",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "ED2033",
+          "name": "Measurement and evaluation",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "MA2014",
+          "name": "Integral Calculus",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "MA2013",
+          "name": "Linear Algebra",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "SC2023",
+          "name": "Waves and Optics",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "SC2031",
+          "name": "Physics Practical 3",
+          "credits": 1,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "ED2042",
+          "name": "Value Education",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ED2052",
+          "name": "Management of Learning",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ED2062",
+          "name": "Aesthetic Education",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ED2072",
+          "name": "Educational Planning",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "MA2044",
+          "name": "Multivariate Calculus",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "MA2053",
+          "name": "Advanced Statistics",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "SC2063",
+          "name": "Electromagnetism I",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "SC2071",
+          "name": "Physics Practical 4",
+          "credits": 1,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ED3012",
+          "name": "Soft Skills for Teachers",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ED3022",
+          "name": "Child Rights",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ED3032",
+          "name": "Physical Education",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "MA3013",
+          "name": "Ordinary Differential Equations",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "MA3022",
+          "name": "History of Mathematics",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "SC3033",
+          "name": "Electromagnetism II",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "SC3043",
+          "name": "Thermodynamics",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "SC3051",
+          "name": "Physics Practical 5",
+          "credits": 1,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ED3043",
+          "name": "Lifelong Education",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ED3053",
+          "name": "Portfolio and Teaching Practice",
+          "credits": 8,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ED3052",
+          "name": "Tertiary Education",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "MA3063",
+          "name": "Dynamics",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "MA3073",
+          "name": "Numerical Methods",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "SC3083",
+          "name": "Electronics",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "SC3091",
+          "name": "Physics Practical 6",
+          "credits": 1,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ED4013",
+          "name": "Research Methods",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ED4023",
+          "name": "Curriculum Theory and Practice",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "MA4013",
+          "name": "Partial Differential Equations",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "MA4023",
+          "name": "Real Analysis",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ED4036",
+          "name": "Dissertation",
+          "credits": 6,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "ED4046",
+          "name": "Practicum (Teaching Practice)",
+          "credits": 6,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Biological Sciences": {
+      "name": "Biological Sciences",
+      "courses": [
+        {
+          "code": "ED1013",
+          "name": "Philosophical Foundation in Education",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "ED1022",
+          "name": "ICT for Education",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "ED1062",
+          "name": "General English",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "SC1013",
+          "name": "Chemical and Cellular Basis of Life",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "SC1022",
+          "name": "General Chemistry",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "SC1031",
+          "name": "General Chemistry Laboratory",
+          "credits": 1,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "ED1033",
+          "name": "Psychological Foundation of Education",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "ED1043",
+          "name": "Teaching Methods - General & Special",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "ED1052",
+          "name": "Sociological Foundation of Education",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "SC1043",
+          "name": "Basic Analytical Chemistry",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "SC1052",
+          "name": "Evolution and Diversity of Organisms",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "SC1061",
+          "name": "Inorganic Chemistry I",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "SC1071",
+          "name": "Inorganic/Analytical Chemistry Laboratory I",
+          "credits": 1,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "SC1081",
+          "name": "Laboratory Safety and Management",
+          "credits": 1,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "ED2013",
+          "name": "Comparative Education",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "ED2022",
+          "name": "Guidance and Counselling",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "ED2033",
+          "name": "Measurement and evaluation",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "SC2015",
+          "name": "Plant Form and Function",
+          "credits": 5,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "SC2022",
+          "name": "Organic Chemistry I",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "SC2031",
+          "name": "Organic Chemistry Laboratory I",
+          "credits": 1,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "SC2041",
+          "name": "Organic Synthesis",
+          "credits": 1,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "SC2052",
+          "name": "Industrial Chemistry",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "ED2042",
+          "name": "Value Education",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ED2052",
+          "name": "Management of Learning",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ED2062",
+          "name": "Aesthetic Education",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ED2072",
+          "name": "Educational Planning",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "SC2066",
+          "name": "Animal Form and Function",
+          "credits": 6,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "SC2072",
+          "name": "Physical Chemistry I",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "SC2081",
+          "name": "Physical Chemistry Laboratory I",
+          "credits": 1,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "SC2091",
+          "name": "Biochemistry",
+          "credits": 1,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ED3012",
+          "name": "Soft Skills for Teachers",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ED3022",
+          "name": "Child Rights",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ED3032",
+          "name": "Physical Education",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "SC2101",
+          "name": "Environmental Chemistry",
+          "credits": 1,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "SC3013",
+          "name": "Environmental Biology",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "SC3023",
+          "name": "Microbiology",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "SC3033",
+          "name": "Inorganic Chemistry II",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "SC3041",
+          "name": "Inorganic/ Analytical Chemistry Laboratory II",
+          "credits": 1,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "SC3051",
+          "name": "Natural products",
+          "credits": 1,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ED3043",
+          "name": "Lifelong Education",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ED3053",
+          "name": "Portfolio and Teaching Practice",
+          "credits": 8,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ED3052",
+          "name": "Tertiary Education",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "SC3062",
+          "name": "Principles of Genetics",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "SC3072",
+          "name": "Molecular Biology - Basic Techniques and Applications",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "SC3084",
+          "name": "Applied Biology",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "SC3092",
+          "name": "Solid State and Organometallic Chemistry",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "SC3101",
+          "name": "Organic Chemistry Laboratory II",
+          "credits": 1,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "SC3112",
+          "name": "Fundamentals of Spectroscopy",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "SC3121",
+          "name": "Nanotechnology",
+          "credits": 1,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "SC3131",
+          "name": "Computational Chemistry",
+          "credits": 1,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ED4013",
+          "name": "Research Methods",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ED4023",
+          "name": "Curriculum Theory and Practice",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "SC4011",
+          "name": "Food Technology",
+          "credits": 1,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "SC4021",
+          "name": "Immunology",
+          "credits": 1,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "SC4032",
+          "name": "Advanced Biology",
+          "credits": 2,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "SC4042",
+          "name": "Physical Chemistry II",
+          "credits": 2,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "SC4051",
+          "name": "Physical Chemistry Laboratory II",
+          "credits": 1,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "SC4061",
+          "name": "Nuclear Chemistry",
+          "credits": 1,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "SC4071",
+          "name": "Surface Science and Catalysis",
+          "credits": 1,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ED4036",
+          "name": "Dissertation",
+          "credits": 6,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "ED4046",
+          "name": "Practicum (Teaching Practice)",
+          "credits": 6,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "English": {
+      "name": "English",
+      "courses": [
+        {
+          "code": "ED1013",
+          "name": "Philosophical Foundation in Education",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "ED1022",
+          "name": "ICT for Education",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "ED1062",
+          "name": "General English",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "EN1013",
+          "name": "Study Skills",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "EN1023",
+          "name": "Introduction to English Language and Grammar",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "EN1033",
+          "name": "Basic Concepts in English Language Teaching",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "EN1043",
+          "name": "Introduction to English Literature",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "ED1033",
+          "name": "Psychological Foundation of Education",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "ED1043",
+          "name": "Teaching Methods - General & Special",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "ED1052",
+          "name": "Sociological Foundation of Education",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "EN1053",
+          "name": "Background to Literary Periods",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "EN1063",
+          "name": "Academic Reading and Writing",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "ED2013",
+          "name": "Comparative Education",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "ED2022",
+          "name": "Guidance and Counselling",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "ED2033",
+          "name": "Measurement and evaluation",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "EN2013",
+          "name": "Structure of English I (Phonetics Phonology and Phonological Processes)",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "EN2022",
+          "name": "Romantic Poetry",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "EN2033",
+          "name": "Computer Assisted Language Learning (CALL)",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "ED2042",
+          "name": "Value Education",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "EN2043",
+          "name": "Structure of English II (Morphology and Syntax)",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ED2052",
+          "name": "Management of Learning",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ED2062",
+          "name": "Aesthetic Education",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ED2072",
+          "name": "Educational Planning",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "EN2053",
+          "name": "Introduction to American Literature and Civilization",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "EN2063",
+          "name": "Teaching: Reading Writing and Vocabulary",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "EN2073",
+          "name": "Sri Lankan Literature in English",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ED3012",
+          "name": "Soft Skills for Teachers",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ED3022",
+          "name": "Child Rights",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ED3032",
+          "name": "Physical Education",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "EN3013",
+          "name": "ELT Curriculum Design",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "EN3023",
+          "name": "Teaching: Listening and Speaking",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "EN3033",
+          "name": "Victorian Literature",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "EN3043",
+          "name": "Discourse Analysis",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ED3043",
+          "name": "Lifelong Education",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ED3053",
+          "name": "Portfolio and Teaching Practice",
+          "credits": 8,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ED3052",
+          "name": "Tertiary Education",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "EN3063",
+          "name": "Literary Theory in English",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "EN3063",
+          "name": "Second Language Acquisition and ESL in Sri Lanka",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "EN3083",
+          "name": "Shakespeare Studies",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "EN3083",
+          "name": "Lesson Planning and ELT Material Development Mechanics",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ED4013",
+          "name": "Research Methods",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ED4023",
+          "name": "Curriculum Theory and Practice",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "EN4013",
+          "name": "World Literature in English",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "EN4023",
+          "name": "Study of Linguistics: Applied/Socio/Psycholinguistics",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "EN4032",
+          "name": "Augustun Literature",
+          "credits": 2,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "EN4042",
+          "name": "Women Writers",
+          "credits": 2,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ED4036",
+          "name": "Dissertation",
+          "credits": 6,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "ED4046",
+          "name": "Practicum (Teaching Practice)",
+          "credits": 6,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Social Sciences": {
+      "name": "Social Sciences",
+      "courses": [
+        {
+          "code": "ED1013",
+          "name": "Philosophical Foundations of Education",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "ED1023",
+          "name": "Psychological Foundations of Education",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "ED1033",
+          "name": "General English",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "HM1015",
+          "name": "Economics I",
+          "credits": 5,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1025",
+          "name": "Commerce I",
+          "credits": 5,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "ED1043",
+          "name": "Sociological Foundations of Education",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "ED1052",
+          "name": "Soft Skills for Teachers",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "ED1062",
+          "name": "Introduction to Teaching Skills",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "ED1073",
+          "name": "Teaching Methods (General)",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "HM1035",
+          "name": "Economics II",
+          "credits": 5,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1045",
+          "name": "Commerce II",
+          "credits": 5,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "ED2013",
+          "name": "Comparative Education",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "ED2022",
+          "name": "Educational Planning",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "ED2032",
+          "name": "Physical Education",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "ED2042",
+          "name": "ICT for Education",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2055",
+          "name": "Commerce III",
+          "credits": 5,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "HM2065",
+          "name": "Economics III",
+          "credits": 5,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "HM2075",
+          "name": "Political Science I",
+          "credits": 5,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2085",
+          "name": "Business Studies I",
+          "credits": 5,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "HM2095",
+          "name": "Geography I",
+          "credits": 5,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2105",
+          "name": "Accounting I",
+          "credits": 5,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "HM2115",
+          "name": "History I",
+          "credits": 5,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "HM2125",
+          "name": "Mass Comm. I",
+          "credits": 5,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "ED2053",
+          "name": "Guidance and Counselling",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ED2063",
+          "name": "Approaches and Strategies in Assessment",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ED2073",
+          "name": "Educational Management",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "HM2135",
+          "name": "Business Studies II",
+          "credits": 5,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2155",
+          "name": "Accounting II",
+          "credits": 5,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "HM2165",
+          "name": "Political science II",
+          "credits": 5,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ED3013",
+          "name": "Curriculum Theories and Practice",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ED3022",
+          "name": "Value Education",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ED3032",
+          "name": "Child Rights",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ED3042",
+          "name": "Aesthetic Education",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "HM3175",
+          "name": "Geography II",
+          "credits": 5,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "HM3185",
+          "name": "Mass Comm. II",
+          "credits": 5,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "HM3195",
+          "name": "History III",
+          "credits": 5,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3205",
+          "name": "Business Studies III",
+          "credits": 5,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ED3052",
+          "name": "International and Multicultural Education",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ED3062",
+          "name": "Life-long Education",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ED3072",
+          "name": "Tertiary Education",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ED3082",
+          "name": "Inclusive Education",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "HM3215",
+          "name": "Geography III",
+          "credits": 5,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "HM3225",
+          "name": "Mass Comm. III",
+          "credits": 5,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM3235",
+          "name": "Accountancy III",
+          "credits": 5,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "HM3245",
+          "name": "Political Science III",
+          "credits": 5,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ED4013",
+          "name": "Research Methods in Education",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ED4022",
+          "name": "Teaching Methods (Special) - Commerce",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ED4032",
+          "name": "Teaching Methods (Special) - Economics",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ED4042",
+          "name": "Teaching Methods (Special) - Political Science",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ED4052",
+          "name": "Teaching Methods (Special) - Geography",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ED4062",
+          "name": "Teaching Methods (Special) - Accounting",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ED4072",
+          "name": "Teaching Methods (Special) - History",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ED4082",
+          "name": "Teaching Methods (Special) - Mass Communication",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ED4094",
+          "name": "School Project",
+          "credits": 2,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ED4102",
+          "name": "Orientation Workshop",
+          "credits": 2,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ED4117",
+          "name": "Teaching Practice",
+          "credits": 7,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "ED4128",
+          "name": "Dissertation",
+          "credits": 8,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Psychology": {
+      "name": "Psychology",
+      "courses": [
+        {
+          "code": "PS1113",
+          "name": "Studying Psychology",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "PS1123",
+          "name": "Research Methods and Statistics in Psychology Part I Relationships and Associations",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "PS1134",
+          "name": "Introduction to Developmental Psychology and Individual Differences",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "PS1144",
+          "name": "Psychological Themes",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "EN1072",
+          "name": "Communication Skills",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "PS1213",
+          "name": "Research Methods and Statistics in Psychology Part II Testing for Differences",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "PS1224",
+          "name": "Introduction to Biological and Cognitive Psychology",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "PS1234",
+          "name": "Concepts in Mental Health and Wellbeing",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "EN1082",
+          "name": "English for Academic Purposes",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "PS2113",
+          "name": "Research Methods and Statistics in Psychology Part III Qualitative Research Methods",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "PS2124",
+          "name": "Cognitive and Biological Psychology",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "PS2134",
+          "name": "Developmental and Social Psychology",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "PS2144",
+          "name": "Contemporary Issues in Applied Psychology",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "PS2213",
+          "name": "Research Methods and Statistics in Psychology Part IV Advanced Quantitative Psychology",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "PS2224",
+          "name": "Careers and Employability",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "PS2234",
+          "name": "Mental Health Disorders",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "PS2243",
+          "name": "Psychology Internship",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        }
+      ]
+    },
+    "Nursing": {
+      "name": "Nursing",
+      "courses": [
+        {
+          "code": "EN1072",
+          "name": "Communication Skills",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "NS1012",
+          "name": "Human Anatomy",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "NS1022",
+          "name": "Human Physiology",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "NS1032",
+          "name": "Biochemistry",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "NS1042",
+          "name": "Microbiology &Parasitology",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "NS1052",
+          "name": "History Ethics & Professionalism in Nursing",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "NS1062",
+          "name": "Introduction to Study Skills",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "NS1072",
+          "name": "Fundamentals of Nursing-1",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "EN1082",
+          "name": "English for Academic Purposes",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "NS1082",
+          "name": "Pharmacology 1",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "NS1092",
+          "name": "Nutrition & Dietetics 1",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "NS1102",
+          "name": "Psycho-Social Aspect in Nursing",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "NS1114",
+          "name": "Fundamentals of Nursing 2",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "NS1123",
+          "name": "Fundamentals of Nursing Practice 1",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "EN2092",
+          "name": "Advanced English Skill",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "NS2012",
+          "name": "Pathology",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "NS2021",
+          "name": "Nursing Research 1",
+          "credits": 1,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "NS2032",
+          "name": "Pharmacology 2",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "NS2042",
+          "name": "Adult Nursing 1",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "NS2052",
+          "name": "Women's Health Nursing 1",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "NS2062",
+          "name": "Community Health Nursing 1",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "NS2072",
+          "name": "Nursing Practice 2",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "NS2083",
+          "name": "Nursing Research and Biostatistics",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "NS2091",
+          "name": "Management & Leadership in Nursing 1",
+          "credits": 1,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "NS2102",
+          "name": "Adult Nursing 2",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "NS2112",
+          "name": "Women's Health Nursing 2",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "NS2121",
+          "name": "Pediatric Nursing 1",
+          "credits": 1,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "NS2134",
+          "name": "Mental Health & Psychiatric Nursing",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "NS3012",
+          "name": "Mini Research",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "NS3022",
+          "name": "Nutrition & Dietetics 2",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "NS3034",
+          "name": "Pediatric Nursing 2",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "NS3043",
+          "name": "Community Health Nursing 2",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "NS3052",
+          "name": "Adult nursing 3",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "NS3062",
+          "name": "Nursing practice 3",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "NS3071",
+          "name": "Trends Issues & Professional Development in Nursing",
+          "credits": 1,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "NS3081",
+          "name": "Teaching and Learning",
+          "credits": 1,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "NS3093",
+          "name": "Elderly Care Nursing",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "NS3102",
+          "name": "Adult Nursing4",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "NS3112",
+          "name": "Emergency and Critical Care Nursing",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "NS3122",
+          "name": "Nursing Practice 4",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        }
+      ]
+    },
+    "Financial Mathematics Applied Statistics": {
+      "name": "Financial Mathematics Applied Statistics",
+      "courses": [
+        {
+          "code": "BM0010",
+          "name": "Accounting",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "MA1033",
+          "name": "Calculus I",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "MA1083",
+          "name": "Discrete Mathematics",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "MA1074",
+          "name": "Probability and Distributions",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "EN1072",
+          "name": "Communication Skills",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1010",
+          "name": "Introduction to Programming",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1030",
+          "name": "Microeconomics",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "MA1091",
+          "name": "Statistical Packages",
+          "credits": 1,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "MA1092",
+          "name": "Statistical Inference",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "EN1082",
+          "name": "English for Academic Purposes",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "MA2124",
+          "name": "Calculus II",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "MA2133",
+          "name": "Linear Algebra",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "MA2193",
+          "name": "Regression Analysis",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2040",
+          "name": "Macroeconomics",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2090",
+          "name": "Financial Accounting",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "MA2174",
+          "name": "Calculus III",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "MA2183",
+          "name": "Differential Equations",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "MA2153",
+          "name": "Time Series Analysis",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "MA2201",
+          "name": "Statistical Programming with R",
+          "credits": 1,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2020",
+          "name": "Principles of Management",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "MA3223",
+          "name": "Numerical Methods",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "MA3233",
+          "name": "Theory of Interest",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "MA3243",
+          "name": "Sampling Techniques",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "MA3253",
+          "name": "Categorical Data Analysis",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM2100",
+          "name": "Financial Management",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "MA3273",
+          "name": "Mathematical Modelling",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "MA3293",
+          "name": "Operations Research",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "MA3303",
+          "name": "Design and Analysis of Experiments",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "MA3313",
+          "name": "Actuarial Mathematics I",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM3210",
+          "name": "Financial Reporting",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "MA3331",
+          "name": "Seminars-Professional Development",
+          "credits": 1,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "MA3343",
+          "name": "Industrial Training (NGPA)",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "MA4353",
+          "name": "Multivariate Data Analysis",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "MA4363",
+          "name": "Stochastic Processes",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BM4170",
+          "name": "Strategic Finance",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "MA4383",
+          "name": "Loss Models",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "MA4403",
+          "name": "Medical Statistics",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "MA4416",
+          "name": "Research Project",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "MA4423",
+          "name": "Stochastic Calculus",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "MA4433",
+          "name": "Econometrics",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "MA4443",
+          "name": "Statistical Learning",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "MA4453",
+          "name": "Actuarial Mathematics II",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "MA4463",
+          "name": "Bayesian Statistics",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    }
+  }
+}

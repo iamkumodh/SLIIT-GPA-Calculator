@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>SLIIT GPA Calculator - Calculate Your CGPA & SGPA</title>
+    <meta name="title" content="SLIIT GPA Calculator - Calculate Your CGPA & SGPA">
+    <meta name="description" content="GPA Calculator for SLIIT undergraduates. Calculate your Semester GPA and Weighted CGPA. Support all faculties and departments at SLIIT.">
+    <meta name="keywords" content="SLIIT GPA Calculator, SLIIT CGPA, SLIIT IT, SLIIT GPA, Sri Lanka Institute of Information Technology, SLIIT, GPA Calculator SLIIT, SLIIT Weighted GPA, SLIIT Computing GPA, SLIIT Engineering GPA, SLIIT Business GPA, Calculate SLIIT GPA, SLIIT Student GPA">
+    <meta name="author" content="Kumodh">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.kumodh.com/projects/sliit-gpa-calculator/">
+
+    <!-- FB Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.kumodh.com/projects/sliit-gpa-calculator/">
+    <meta property="og:title" content="SLIIT GPA Calculator - Calculate Your CGPA & Semester GPA">
+    <meta property="og:description" content="Calculate your SLIIT Semester GPA and Weighted CGPA instantly. Supports all faculties: Computing, Engineering, Business, Architecture, and Humanities.">
+    <meta property="og:image" content="https://www.kumodh.com/projects/sliit-gpa-calculator/og-image.png">
+    <meta property="og:site_name" content="SLIIT GPA Calculator">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.kumodh.com/projects/sliit-gpa-calculator/">
+    <meta name="twitter:title" content="SLIIT GPA Calculator - Calculate Your CGPA & Semester GPA">
+    <meta name="twitter:description" content="Calculate your SLIIT Semester GPA and Weighted CGPA instantly. Supports all faculties: Computing, Engineering, Business, Architecture, and Humanities.">
+    <meta name="twitter:image" content="https://www.kumodh.com/projects/sliit-gpa-calculator/og-image.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="favicon.svg">
+
+    <!-- DNS Prefetch -->
+    <!--<link rel="dns-prefetch" href="https://cdn.tailwindcss.com">-->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+
+    <!-- Preconnect -->
+    <!--<link rel="preconnect" href="https://cdn.tailwindcss.com">-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Styles -->
+    <!--<script src="https://cdn.tailwindcss.com"></script>-->
+    <link href="output.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" >
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&family=JetBrains+Mono:wght@500&family=Imperial+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400&display=swap" rel="stylesheet">
+    
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "SLIIT GPA Calculator",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Calculate your Semester GPA and Weighted CGPA for Sri Lanka Institute of Information Technology (SLIIT). Supports all faculties including Computing, Engineering, Business, Architecture, and Humanities.",
+      "url": "https://www.kumodh.com/projects/sliit-gpa-calculator/",
+      "author": {
+        "@type": "Person",
+        "name": "Kumodh"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Kumodh"
+      },
+      "inLanguage": "en-US",
+      "keywords": "SLIIT GPA Calculator, SLIIT CGPA, SLIIT GPA, Sri Lanka Institute of Information Technology, GPA Calculator",
+      "about": {
+        "@type": "Organization",
+        "name": "Sri Lanka Institute of Information Technology",
+        "alternateName": "SLIIT",
+        "url": "https://www.sliit.lk"
+      }
+    }
+    </script>
+
+    <script>
+        // tailwind dark mode detection
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark')
+        } else {
+            document.documentElement.classList.remove('dark')
+        }
+    </script>
+</head>
+<body>
+    <main class="container">
+        <header class="header">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="logo-icon" role="img" aria-label="Graduation cap icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+            </svg>
+            <h1>SLIIT GPA Calculator</h1>
+            <p>Calculate your Semester GPA and Weighted GPA</p>
+        </header>
+
+        <div class="selection-area">
+            <div class="selection-row">
+                <div class="form-group">
+                    <label for="faculty">Faculty</label>
+                    <select id="faculty">
+                        <option value="">Select Faculty</option>
+                        <option value="ARCHITECTURE">Architecture</option>
+                        <option value="BUSINESS">Business</option>
+                        <option value="COMPUTING">Computing</option>
+                        <option value="ENGINEERING">Engineering</option>
+                        <option value="HUMANITIES">Humanities & Sciences</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="department">Department</label>
+                    <select id="department" disabled>
+                        <option value="">Select Department</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="error-message" id="errorMessage"></div>
+            <div class="success-message" id="successMessage"></div>
+        </div>
+
+        <div class="modules-section" id="modulesSection">
+            <div class="semester-tabs" id="semesterTabs"></div>
+            <div id="semesterContents"></div>
+        </div>
+
+        <div class="action-buttons" id="actionButtons">
+            <div class="btn-row">
+                <button class="btn btn-calculate" onclick="calculateGPA()">Calculate GPA</button>
+                <button class="btn btn-reset" onclick="resetForm()">Reset All</button>
+            </div>
+        </div>
+
+        <div class="results-section" id="resultsSection">
+            <div class="results-grid">
+                <div class="result-card gpa">
+                    <div class="result-label">Semester GPA</div>
+                    <div class="result-value" id="gpaValue">0.00</div>
+                    <div id="deansListMessage" class="deans-list-message"></div>
+                </div>
+                <div class="result-card wgpa">
+                    <div class="result-label">Weighted GPA</div>
+                    <div class="result-value" id="wgpaValue">0.00</div>
+                </div>
+            </div>
+            <div class="semester-breakdown">
+                <h3>Semester-wise Breakdown</h3>
+                <div id="semesterBreakdown"></div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="made-with-love">
+                Made with ❤️ at SLIIT
+            </div>
+            <div class="disclaimer">
+                <strong>Disclaimer</strong>
+                This GPA calculator is an independent tool created using 2025 SLIIT Student Handbook. It is not affiliated with, endorsed by, or sponsored by the Sri Lanka Institute of Information Technology (SLIIT). The accuracy of results is not guaranteed. Please use this tool at your own discretion.
+            </div>
+            <div class="copyright">
+                © 2025 <a href="https://www.kumodh.com/">Kumodh.</a> All rights reserved.
+            </div>
+        </footer>
+    </main>
+
+    <!-- Dean's List Congratulations Animation -->
+    <div id="congratsOverlay" class="congrats-overlay">
+        <div class="congrats-content">
+            <div class="congrats-emoji">🎉</div>
+            <h2 class="congrats-title">Congratulations!</h2>
+            <p class="congrats-message">You're on the Dean's List!</p>
+            <div class="confetti"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

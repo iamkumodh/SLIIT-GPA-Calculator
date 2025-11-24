@@ -1,0 +1,2580 @@
+{
+  "facultyCode": "FOC",
+  "facultyName": "Faculty of Computing",
+  "wgpaWeights": {
+    "FOC_IT_Programs": {
+      "Year1": "0%",
+      "Year2": "20%",
+      "Year3": "30%",
+      "Year4": "50%"
+    },
+    "FOC_CS_CSE_Programs": {
+      "Year1": "10%",
+      "Year2": "10%",
+      "Year3": "30%",
+      "Year4": "50%"
+    }
+  },
+  "degreeClassification": [
+    {
+      "name": "First Class Honours",
+      "minWGPA": 3.7,
+      "maxWGPA": 4.0
+    },
+    {
+      "name": "Second Class Honours (Upper)",
+      "minWGPA": 3.3,
+      "maxWGPA": 3.69
+    },
+    {
+      "name": "Second Class Honours (Lower)",
+      "minWGPA": 3.0,
+      "maxWGPA": 3.29
+    },
+    {
+      "name": "Third Class",
+      "minWGPA": 2.0,
+      "maxWGPA": 2.99
+    },
+    {
+      "name": "Pass",
+      "minWGPA": 0.0,
+      "maxWGPA": 1.99
+    },
+    {
+      "name": "General_Requirements",
+      "minWGPA": 0.0,
+      "maxWGPA": 0.0
+    }
+  ],
+  "programs": {
+    "Software Engineering": {
+      "name": "Software Engineering",
+      "courses": [
+        {
+          "code": "IT1120",
+          "name": "Introduction to Programming",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1030",
+          "name": "Data Communication Networks",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1130",
+          "name": "Mathematics for Computing",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1140",
+          "name": "Fundamentals of Computing",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1160",
+          "name": "Discrete Mathematics",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IT1170",
+          "name": "Data Structures and Algorithms",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "SE1010",
+          "name": "Software Engineering",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IT1150",
+          "name": "Technical Writing",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IT2120",
+          "name": "Probability and Statistics",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "SE2010",
+          "name": "Object Oriented Programming",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IT2130",
+          "name": "Operating Systems & Sys Admin",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IT2140",
+          "name": "Databases",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IT2011",
+          "name": "Artificial Intelligence & Machine Learning",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IT2150",
+          "name": "IT Project",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "SE2020",
+          "name": "Web and Mobile Technologies",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IT2160",
+          "name": "Professional Skills",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IT3120",
+          "name": "Industry Economics & Management",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "SE3090",
+          "name": "Software Engineering Frameworks",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "SE3100",
+          "name": "Architecture based Development",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "SE3110",
+          "name": "Quality Management in Software Engineering",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IT3190",
+          "name": "Industry Training",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "SE3120",
+          "name": "Distributed Systems",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "SE3130",
+          "name": "User Experience Research & Design",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IT3160",
+          "name": "Research Methods",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IT4200",
+          "name": "Research Project - I",
+          "credits": 6,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "SE4070",
+          "name": "Secure Software Development",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "SE4080",
+          "name": "Cloud Native Development",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "SE4100",
+          "name": "Deep Learning",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "SE4090",
+          "name": "Mobile Application Design & Development",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IT4200",
+          "name": "Research Project - II",
+          "credits": 6,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "SE4110",
+          "name": "Current Trends in Software Engineering",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "SE4120",
+          "name": "Enterprise Application Development",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "SE4140",
+          "name": "Big Data & Data Analytics",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "SE4130",
+          "name": "Parallel Computing",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Information Technology": {
+      "name": "Information Technology",
+      "courses": [
+        {
+          "code": "IT1120",
+          "name": "Introduction to Programming",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IE1030",
+          "name": "Data Communication Networks",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1130",
+          "name": "Mathematics for Computing",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1140",
+          "name": "Fundamentals of Computing",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1160",
+          "name": "Discrete Mathematics",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IT1170",
+          "name": "Data Structures and Algorithms",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "SE1010",
+          "name": "Software Engineering",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IT1150",
+          "name": "Technical Writing",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IT2120",
+          "name": "Probability and Statistics",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "SE2010",
+          "name": "Object Oriented Programming",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IT2130",
+          "name": "Operating Systems & System Administration",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IT2140",
+          "name": "Database Design and Development",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IT2011",
+          "name": "Artificial Intelligence & Machine Learning",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IT2150",
+          "name": "IT Project",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "SE2020",
+          "name": "Web and Mobile Technologies",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IT2160",
+          "name": "Professional Skills",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IT3120",
+          "name": "Industrial Economics & Management",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IT3130",
+          "name": "Application Development",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IT3140",
+          "name": "Database Systems",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IT3150",
+          "name": "IT Process and Infrastructure Management",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IT3190",
+          "name": "Industry Training",
+          "credits": 0,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IT3180",
+          "name": "Cloud Technologies",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IT3200",
+          "name": "Data Analytics",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IT3160",
+          "name": "Research Methods",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IT4200",
+          "name": "Research Project - I",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IT4210",
+          "name": "Information Security",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IT4150",
+          "name": "Intelligent Systems Development",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IT4180",
+          "name": "IT Policy Management and Governance",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IT4160",
+          "name": "Software Quality Management",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IT4200",
+          "name": "Research Project - II",
+          "credits": 8,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IT4190",
+          "name": "Current Trends in IT",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "SE4120",
+          "name": "Enterprise Application Development",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IT4170",
+          "name": "Human Computer Interaction",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Data Science": {
+      "name": "Data Science",
+      "courses": [
+        {
+          "code": "IT1120",
+          "name": "Introduction to Programming",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IE1030",
+          "name": "Data Communication Networks",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1130",
+          "name": "Mathematics for Computing",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1140",
+          "name": "Fundamentals of Computing",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1160",
+          "name": "Discrete Mathematics",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IT1170",
+          "name": "Data Structures and Algorithms",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "SE1010",
+          "name": "Software Engineering",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IT1150",
+          "name": "Technical Writing",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IT2120",
+          "name": "Probability and Statistics",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IT2010",
+          "name": "Object Oriented Programming",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IT2130",
+          "name": "Operating Systems & System Administration",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IT2140",
+          "name": "Database Design and Development",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IT2011",
+          "name": "Artificial Intelligence & Machine Learning",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IT2150",
+          "name": "IT Project",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "SE2020",
+          "name": "Web and Mobile Technologies",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IT2160",
+          "name": "Professional Skills",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IT3120",
+          "name": "Industrial Economics & Management",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IT3081",
+          "name": "Statistical Modelling",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IT3091",
+          "name": "Machine Learning",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IT3101",
+          "name": "Data Warehousing and Business Intelligence",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IT3190",
+          "name": "Industry Training",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IT3111",
+          "name": "Deep Learning",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IT3121",
+          "name": "Cloud Data Analytics",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IT3160",
+          "name": "Research Methods",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IT4200",
+          "name": "Research Project - I",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IT4051",
+          "name": "Modern Topics in Data Science",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IT4061",
+          "name": "Natural Language Processing",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IT4081",
+          "name": "Software Engineering Concepts",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IT4091",
+          "name": "Optimization Methods",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IT4200",
+          "name": "Research Project - II",
+          "credits": 8,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IT4071",
+          "name": "Data Governance Privacy and Security",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IT4101",
+          "name": "Database Implementation and Administration",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IT4111",
+          "name": "MLOps for Data Analytics",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Computer Systems Network Engineering": {
+      "name": "Computer Systems Network Engineering",
+      "courses": [
+        {
+          "code": "IT1120",
+          "name": "Introduction to Programming",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IE1030",
+          "name": "Data Communication Networks",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1130",
+          "name": "Mathematics for Computing",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1140",
+          "name": "Fundamentals of Computing",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1160",
+          "name": "Discrete Mathematics",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IT1170",
+          "name": "Data Structures and Algorithms",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "SE1010",
+          "name": "Software Engineering",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IT1150",
+          "name": "Technical Writing",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IT2120",
+          "name": "Probability and Statistics",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "SE2010",
+          "name": "Object Oriented Programming",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IT2130",
+          "name": "Operating Systems & System Administration",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IT2140",
+          "name": "Database Design and Development",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IT2011",
+          "name": "Artificial Intelligence & Machine Learning",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IE2100",
+          "name": "Data Communication and Wireless Networks",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IE2110",
+          "name": "Network Management and Systems Administration",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IE2160",
+          "name": "Professional Skills",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IT3120",
+          "name": "Industrial Economics & Management",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IE3090",
+          "name": "Network programming",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IE3100",
+          "name": "Virtualization and Cloud Computing Technologies",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IE3110",
+          "name": "Advanced Network Engineering",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IE3190",
+          "name": "Industry Training",
+          "credits": 0,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IE3120",
+          "name": "Capstone Project",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IE3130",
+          "name": "Enterprise Network and Systems Security",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IE3160",
+          "name": "Research Methods",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IT4200",
+          "name": "Research Project - I",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IT4090",
+          "name": "DevOps",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IE4100",
+          "name": "Network Storage and Architecture",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IE4112",
+          "name": "Data & Systems Security",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IE4102",
+          "name": "Governance Risk Management & Compliance",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IE4200",
+          "name": "Research Project - II",
+          "credits": 8,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IE4110",
+          "name": "Software Defined Networks",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IE4120",
+          "name": "Robotics and Intelligent Systems",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IT4130",
+          "name": "Internet of Things",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Cyber Security": {
+      "name": "Cyber Security",
+      "courses": [
+        {
+          "code": "IT1120",
+          "name": "Introduction to Programming",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1030",
+          "name": "Data Communication Networks",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1130",
+          "name": "Mathematics for Computing",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1140",
+          "name": "Fundamentals of Computing",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1160",
+          "name": "Discrete Mathematics",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IT1170",
+          "name": "Data Structures and Algorithms",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "SE1010",
+          "name": "Software Engineering",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IT1150",
+          "name": "Technical Writing",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IE2120",
+          "name": "Probability and Statistics",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "SE2010",
+          "name": "Object Oriented Programming",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IE2130",
+          "name": "Operating Systems & System Administration",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IE2140",
+          "name": "Database Design and Development",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IE2011",
+          "name": "Artificial Intelligence & Machine Learning",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IE2092",
+          "name": "Introduction to Cyber Security",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IE2102",
+          "name": "Network Programming",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IE2160",
+          "name": "Professional Skills",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IE3120",
+          "name": "Industrial Economics & Management",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IT3122",
+          "name": "Network Security",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IE3132",
+          "name": "Vulnerability Assessment & Penetration Testing",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IE3142",
+          "name": "DevOps Security",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IE3190",
+          "name": "Industry Training",
+          "credits": 0,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IE3152",
+          "name": "Cryptography",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IE3162",
+          "name": "Ethical Hacking & Cyber Ops",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IE3160",
+          "name": "Research Methods",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IT4200",
+          "name": "Research Project - I",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IE4102",
+          "name": "Governance Risk Management & Compliance",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IE4112",
+          "name": "Data & Systems Security",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IE4122",
+          "name": "Secure Software Engineering",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IE4132",
+          "name": "Cyber Law & Ethics",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IE4200",
+          "name": "Research Project - II",
+          "credits": 8,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IE4142",
+          "name": "Digital Forensics",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IE4152",
+          "name": "Virtualization & Cloud Security",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IE4130",
+          "name": "Internet of Things",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Information Systems Engineering": {
+      "name": "Information Systems Engineering",
+      "courses": [
+        {
+          "code": "IT1120",
+          "name": "Introduction to Programming",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1030",
+          "name": "Data Communication Networks",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1130",
+          "name": "Mathematics for Computing",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1140",
+          "name": "Fundamentals of Computing",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1160",
+          "name": "Discrete Mathematics",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IT1170",
+          "name": "Data Structures and Algorithms",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "SE1010",
+          "name": "Software Engineering",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IT1150",
+          "name": "Technical Writing",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IT2120",
+          "name": "Probability and Statistics",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "SE2010",
+          "name": "Object Oriented Programming",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IE2130",
+          "name": "Operating Systems & System Administration",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IE2140",
+          "name": "Database Design and Development",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IT2011",
+          "name": "Artificial Intelligence & Machine Learning",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IE2091",
+          "name": "IS Project",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IE2101",
+          "name": "Requirement Engineering",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IE2160",
+          "name": "Professional Skills",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IE3120",
+          "name": "Industrial Economics & Management",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IE3101",
+          "name": "Enterprise Network and Information systems security",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IE3111",
+          "name": "Organizational Functions",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IE3121",
+          "name": "Enterprise Architecture",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IE3131",
+          "name": "Business Intelligence and Data Analytics",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IE3141",
+          "name": "IS Strategy Management & Acquisition",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IE3190",
+          "name": "Industry Training",
+          "credits": 0,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IE3160",
+          "name": "Research Methods",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IT4200",
+          "name": "Research Project - I",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IT4211",
+          "name": "Business Process Management",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IE4221",
+          "name": "Professional Business Analysis",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IE4231",
+          "name": "Digital Entrepreneurship",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IT4160",
+          "name": "Software Quality Assurance",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IE4200",
+          "name": "Research Project - II",
+          "credits": 8,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IE4241",
+          "name": "Emerging Trends in ISE",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IT4251",
+          "name": "Supply Chain Management",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IE4261",
+          "name": "IS Auditing and Risk Management",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IT4170",
+          "name": "Human Computer Interaction",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Interactive Media": {
+      "name": "Interactive Media",
+      "courses": [
+        {
+          "code": "IT1120",
+          "name": "Introduction to Programming",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1030",
+          "name": "Data Communication Networks",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1130",
+          "name": "Mathematics for Computing",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1140",
+          "name": "Fundamentals of Computing",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1160",
+          "name": "Discrete Mathematics",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IT1170",
+          "name": "Data Structures and Algorithms",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "SE1010",
+          "name": "Software Engineering",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IT1150",
+          "name": "Technical Writing",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IT2120",
+          "name": "Probability and Statistics",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "SE2010",
+          "name": "Object Oriented Programming",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IT2130",
+          "name": "Operating Systems & System Administration",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IT2140",
+          "name": "Database Design and Development",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IT2011",
+          "name": "Artificial Intelligence & Machine Learning",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "SE2011",
+          "name": "Technical Evolution of Multimedia",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "SE2021",
+          "name": "Creative Expertise Development",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IT2160",
+          "name": "Professional Skills",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "SE3101",
+          "name": "Advanced Computer Graphics",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "SE3111",
+          "name": "Digital Business Management and Entrepreneurship",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "SE3121",
+          "name": "UI/UX Designing and Engineering",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "SE3131",
+          "name": "Fundamentals of Cinematography and Digital Multimedia",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IT3190",
+          "name": "Industry Training",
+          "credits": 0,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "SE3141",
+          "name": "3D Modeling & Animation",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "SE3151",
+          "name": "Machine Learning based Image Manipulations",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IT3160",
+          "name": "Research Methods",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IT4200",
+          "name": "Research Project - I",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "SE4071",
+          "name": "Games Technology",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "SE4081",
+          "name": "Technology-based Entertainment and Aesthetics",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "SE4101",
+          "name": "Advanced Computer Generated Imagery",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "SE4111",
+          "name": "Advanced Cinematography and Television Production",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "SE4121",
+          "name": "Mobile Application Design and Development",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IT4200",
+          "name": "Research Project - II",
+          "credits": 8,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "SE4091",
+          "name": "New Media Project Management",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "SE4131",
+          "name": "Games and Mixed Reality Applications",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "SE4141",
+          "name": "New Media Insights",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "SE4151",
+          "name": "Audio Engineering and Sonic Arts",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "SE4161",
+          "name": "Advanced Digital Marketing and Advertising",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Artificial Intelligence": {
+      "name": "Artificial Intelligence",
+      "courses": [
+        {
+          "code": "IT1120",
+          "name": "Introduction to Programming",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IE1030",
+          "name": "Data Communication Networks",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1130",
+          "name": "Mathematics for Computing",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1140",
+          "name": "Fundamentals of Computing",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IT1160",
+          "name": "Discrete Mathematics",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IT1170",
+          "name": "Data Structures and Algorithms",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "SE1010",
+          "name": "Software Engineering",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IT1150",
+          "name": "Technical Writing",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IT2120",
+          "name": "Probability and Statistics",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "SE2010",
+          "name": "Object Oriented Programming",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IT2130",
+          "name": "Operating Systems & System Administration",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IT2140",
+          "name": "Database Design and Development",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IT2011",
+          "name": "Artificial Intelligence & Machine Learning",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IT2012",
+          "name": "AIML Project",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "SE2020",
+          "name": "Web and Mobile Technologies",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IT2160",
+          "name": "Professional Skills",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "SE3090",
+          "name": "Software Engineering Frameworks",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IT3012",
+          "name": "Intelligent Agents",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IT3091",
+          "name": "Machine Learning",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IT3101",
+          "name": "Data Warehouse and Business Intelligence",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IT3190",
+          "name": "Industry Training",
+          "credits": 0,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IT3160",
+          "name": "Research Methods",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IT3111",
+          "name": "Deep Learning",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IT3022",
+          "name": "Bio Inspired Computing",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IT4200",
+          "name": "Research Project - I",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IT4012",
+          "name": "Current Trends in AI",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IT4061",
+          "name": "Natural Language Processing",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IT4022",
+          "name": "Edge AI",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "SE4070",
+          "name": "Secure Software Development",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IT4200",
+          "name": "Research Project - II",
+          "credits": 8,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IT4032",
+          "name": "Responsible AI",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IT4111",
+          "name": "MLOps for Data Analytics",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "SE4120",
+          "name": "Enterprise Application Development",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "SE4140",
+          "name": "Big data and Data Analytics",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Computer Science": {
+      "name": "Computer Science",
+      "courses": [
+        {
+          "code": "SE1012",
+          "name": "Programming Methodology",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IE1004",
+          "name": "Computational Thinking",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IE1014",
+          "name": "Engineering Mathematics - I",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "SE1022",
+          "name": "Discrete Mathematics",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "SE1032",
+          "name": "Communication Skills",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IE1024",
+          "name": "Computer Organization and Architecture",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IE1034",
+          "name": "Engineering Mathematics - II",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IE1044",
+          "name": "Digital Electronics",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "SE1042",
+          "name": "English for Academic Purposes",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "SE1052",
+          "name": "Data Structures and Algorithms",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IE2004",
+          "name": "Computer Networks",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "SE2012",
+          "name": "Object Oriented Analysis and Design",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "SE2022",
+          "name": "Design and Analysis of Algorithms",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "SE2032",
+          "name": "Database Management Systems",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IE2024",
+          "name": "Probability and Statistics",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "SE2042",
+          "name": "Operating Systems",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "SE2052",
+          "name": "Programming Paradigms",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "SE2062",
+          "name": "Distributed Systems",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "SE2072",
+          "name": "Software Engineering",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "SE2082",
+          "name": "Human Computer Interaction",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "SE3022",
+          "name": "Case Study Project",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "SE3032",
+          "name": "Graphics and Visualization",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "SE3112",
+          "name": "Advanced Software Engineering",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IE3014",
+          "name": "Professional Skills",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "SE3062",
+          "name": "Intelligent Systems",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "SE3082",
+          "name": "Parallel Computing",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "SE3012",
+          "name": "Industry Economics and Management",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "SE3092",
+          "name": "Platform Based Development",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "SE3102",
+          "name": "Research Methods",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "SE3072",
+          "name": "Industry Training",
+          "credits": 6,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "SE4012",
+          "name": "Research Project",
+          "credits": 8,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "SE4022",
+          "name": "Machine Learning",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "SE4032",
+          "name": "Advanced Mathematics",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IE4054",
+          "name": "Information Security",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "SE4042",
+          "name": "Modelling and Simulation of Sciences",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "SE4012",
+          "name": "Research Project (Continued)",
+          "credits": 8,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "SE4052",
+          "name": "Compiler Construction (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "SE4062",
+          "name": "Image Processing and Computer Vision (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "SE4072",
+          "name": "Deep Learning (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IE4094",
+          "name": "Robotics (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Computer Systems Engineering": {
+      "name": "Computer Systems Engineering",
+      "courses": [
+        {
+          "code": "SE1012",
+          "name": "Programming Methodology",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IE1004",
+          "name": "Computational Thinking",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IE1014",
+          "name": "Engineering Mathematics - I",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "SE1022",
+          "name": "Discrete Mathematics",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "SE1032",
+          "name": "Communication Skills",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "IE1024",
+          "name": "Computer Organization and Architecture",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IE1034",
+          "name": "Engineering Mathematics - II",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IE1044",
+          "name": "Digital Electronics",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "SE1042",
+          "name": "English for Academic Purposes",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "SE1052",
+          "name": "Data Structures and Algorithms",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "IE2004",
+          "name": "Computer Networks",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "SE2012",
+          "name": "Object Oriented Analysis and Design",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IE2014",
+          "name": "Circuit Theory",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IE2024",
+          "name": "Probability & Statistics",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "SE2032",
+          "name": "Database Management Systems",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "IE2034",
+          "name": "Analog Electronics",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IE2044",
+          "name": "System Modelling and Prototyping",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IE2064",
+          "name": "Advanced Computer Organization & Architecture",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IE2074",
+          "name": "Control Theory",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IE2084",
+          "name": "Communication Technologies",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IE3004",
+          "name": "Digital Systems Design",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IE3014",
+          "name": "Professional Skills",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IE3034",
+          "name": "Control Systems Engineering",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IE3054",
+          "name": "Digital Signal Processing",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IE3064",
+          "name": "Embedded Systems Engineering",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IE3044",
+          "name": "Design Project",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "SE3012",
+          "name": "Industrial Economics and Management",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IE3024",
+          "name": "Advance Mathematics",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "SE3072",
+          "name": "Industrial Training",
+          "credits": 6,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IE4004",
+          "name": "Research Project (Compulsory)",
+          "credits": 8,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IE4054",
+          "name": "Information Security (Compulsory)",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "SE4022",
+          "name": "Machine Learning (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IE4044",
+          "name": "Biological Inspired systems (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IE4034",
+          "name": "Real Time Operating Systems (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IE4014",
+          "name": "Parallel & Distributed Computing (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IE4104",
+          "name": "Advanced Software Engineering (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IE4114",
+          "name": "Intelligent Systems (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IE4004",
+          "name": "Research Project (Continued)",
+          "credits": 8,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IE4064",
+          "name": "Instrumentation and control (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IE4074",
+          "name": "Interactive system design (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IE4084",
+          "name": "Virtualization & Cloud Computing Technologies (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IE4094",
+          "name": "Robotics (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "SE4062",
+          "name": "Image Processing and Computer Vision (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "SE4072",
+          "name": "Deep Learning (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    }
+  }
+}

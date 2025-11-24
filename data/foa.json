@@ -1,0 +1,281 @@
+{
+  "facultyCode": "FOA",
+  "facultyName": "Faculty of Architecture",
+  "wgpaWeights": {
+    "Architecture_3Year_Program": {
+      "Year1": "0%",
+      "Year2": "0%",
+      "Year3": "100%"
+    }
+  },
+  "degreeClassification": [
+    {
+      "name": "First Class Honours",
+      "minWGPA": 3.7,
+      "maxWGPA": 4.0
+    },
+    {
+      "name": "Second Class Honours (Upper)",
+      "minWGPA": 3.3,
+      "maxWGPA": 3.69
+    },
+    {
+      "name": "Second Class Honours (Lower)",
+      "minWGPA": 3.0,
+      "maxWGPA": 3.29
+    },
+    {
+      "name": "Third Class",
+      "minWGPA": 2.0,
+      "maxWGPA": 2.99
+    },
+    {
+      "name": "Pass",
+      "minWGPA": 0.0,
+      "maxWGPA": 1.99
+    },
+    {
+      "name": "General_Requirements",
+      "minWGPA": 0.0,
+      "maxWGPA": 0.0
+    }
+  ],
+  "programs": {
+    "Architecture": {
+      "name": "Architecture",
+      "courses": [
+        {
+          "code": "AR1110",
+          "name": "Architectural Design: Design Studio 1",
+          "credits": 8,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "AR1120",
+          "name": "Architectural Design: Design Studio 2",
+          "credits": 8,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "AR1130",
+          "name": "Architectural Design: Experiencing Architecture and Documentation",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "AR1210",
+          "name": "Culture and Society: Sri Lankan Studies",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "AR1220",
+          "name": "Culture and Society: History of World Art and Architecture",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "AR1230",
+          "name": "Culture and Society: Social Studies",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "AR1240",
+          "name": "Culture and Society: History of Sri Lankan & Asian Art and Architecture",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "AR1310",
+          "name": "Environment: Nature Studies",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "AR1320",
+          "name": "Environment: Climate and Comfort",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "AR1410",
+          "name": "Construction Technology: Building Technology",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "AR1420",
+          "name": "Construction Technology : Structures 1",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "AR1510",
+          "name": "Visual Communications: Free Hand Drawing",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "AR1520",
+          "name": "Visual Communications : Colour and Graphics",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "AR1710",
+          "name": "Research and Communication: English",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "AR2110",
+          "name": "Architectural Design: Design Studio 3",
+          "credits": 8,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "AR2120",
+          "name": "Architectural Design: Design Studio 4",
+          "credits": 8,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "AR2130",
+          "name": "Architectural Design: Theory of Architecture and Design 1",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "AR2140",
+          "name": "Architectural Design: Theory of Architecture and Design 2",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "AR2210",
+          "name": "Culture and Society: Urban Studies and Planning 1",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "AR2220",
+          "name": "Culture and Society: Urban Studies and Planning 2",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "AR2310",
+          "name": "Environment: Site and Planning",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "AR2320",
+          "name": "Environment: Lighting and Acoustics",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "AR2410",
+          "name": "Construction Technology: Structures 2",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "AR2420",
+          "name": "Construction Technology: Building Services",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "AR2430",
+          "name": "Construction Technology : Building Construction",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "AR2610",
+          "name": "Profession and Practice : Building Regulations and law",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "AR2510",
+          "name": "Visual Communications: CAD 1",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "AR2520",
+          "name": "Visual Communications : CAD 2",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "6111ARSRI",
+          "name": "CDP Research",
+          "credits": 20,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "6121ARSRI",
+          "name": "Architectural Design 3 - Origination",
+          "credits": 20,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "6122ARSRI",
+          "name": "Architectural Design 3 - Resolution",
+          "credits": 20,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "6123ARSRI",
+          "name": "Comprehensive Design Project",
+          "credits": 40,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "6131ARSRI",
+          "name": "Technology and Practice -03",
+          "credits": 20,
+          "year": 3,
+          "semester": 1
+        }
+      ]
+    }
+  }
+}

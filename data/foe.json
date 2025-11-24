@@ -1,0 +1,2532 @@
+{
+  "facultyCode": "FOE",
+  "facultyName": "Faculty of Engineering",
+  "wgpaWeights": {
+    "FOE_Engineering": {
+      "Year1": "10%",
+      "Year2": "20%",
+      "Year3": "30%",
+      "Year4": "40%"
+    },
+    "FOE_QS": {
+      "Year1": "10%",
+      "Year2": "20%",
+      "Year3": "30%",
+      "Year4": "40%"
+    }
+  },
+  "degreeClassification": [
+    {
+      "name": "First Class Honours",
+      "minWGPA": 3.7,
+      "maxWGPA": 4.0
+    },
+    {
+      "name": "Second Class Honours (Upper)",
+      "minWGPA": 3.3,
+      "maxWGPA": 3.69
+    },
+    {
+      "name": "Second Class Honours (Lower)",
+      "minWGPA": 3.0,
+      "maxWGPA": 3.29
+    },
+    {
+      "name": "Third Class",
+      "minWGPA": 2.0,
+      "maxWGPA": 2.99
+    },
+    {
+      "name": "Pass",
+      "minWGPA": 0.0,
+      "maxWGPA": 1.99
+    },
+    {
+      "name": "General_Requirements",
+      "minWGPA": 0.0,
+      "maxWGPA": 0.0
+    }
+  ],
+  "programs": {
+    "Civil Engineering": {
+      "name": "Civil Engineering",
+      "courses": [
+        {
+          "code": "CE1020",
+          "name": "Statics and Hydrostatics",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "ME1050",
+          "name": "Introduction to Engineering Design and Communication",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "EC1022",
+          "name": "Electrical Systems",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "MA1112",
+          "name": "Algebra",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "EL1203",
+          "name": "English Language Skills I",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "CE1913",
+          "name": "Introduction to Sustainable Engineering",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "ME1031",
+          "name": "Engineering Skills Development",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "ME1060",
+          "name": "Dynamics",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "MT1011",
+          "name": "Engineering Materials",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "MA1122",
+          "name": "Calculus",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "EC1450",
+          "name": "Fundamentals of Programming",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "EL1213",
+          "name": "English Language Skills II",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "CE2011",
+          "name": "Structural Analysis I",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "CE2712",
+          "name": "Fluid Mechanics",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "CE2021",
+          "name": "Properties and Mechanics of Materials",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "CE2211",
+          "name": "Civil Engineering Methods",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "MA2302",
+          "name": "Engineering Mathematics III",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "CE2812",
+          "name": "Geotechnical Engineering I",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "CE2032",
+          "name": "Structural Design I",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "CE2042",
+          "name": "Structural Analysis II",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "CE2051",
+          "name": "Advanced Mechanics of Materials",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ME2720",
+          "name": "Introduction to Thermal Processes",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "Humanities I",
+          "name": "Humanities I",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "CE2911",
+          "name": "Industrial Training I",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "CE2940",
+          "name": "Civil Engineering Surveying Camp",
+          "credits": 1,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "CE3012",
+          "name": "Structural Analysis III",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "CE3712",
+          "name": "Pumps & Open Channel Flow",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "CE3022",
+          "name": "Structural Design II",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "CE3811",
+          "name": "Geotechnical Engineering II",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "CE3211",
+          "name": "Civil Engineering Project and Cost Management",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "Humanities II",
+          "name": "Humanities II",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "CE3611",
+          "name": "Environmental Engineering",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "CE3822",
+          "name": "Geotechnical Engineering III",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "CE3411",
+          "name": "Transportation Engineering",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "CE3420",
+          "name": "Highway Engineering",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "CE3231",
+          "name": "Projection Formulation",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "CE3221",
+          "name": "Construction Technology and Methods",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "CE3922",
+          "name": "Civil Engineering Seminar",
+          "credits": 0,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "CE3911",
+          "name": "Industrial Training II",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "CE4211",
+          "name": "Comprehensive Design Project I",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "CE4221",
+          "name": "Civil Engineering Practice Quality and Legislation",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "CE4912",
+          "name": "Civil Engineering Project I",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "CE4741",
+          "name": "Engineering Hydrology",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "CE4813",
+          "name": "Advanced Foundation Engineering (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "CE4411",
+          "name": "Traffic Engineering and Planning (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "CE4711",
+          "name": "Water Systems & Hydraulic Structures (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "CE4011",
+          "name": "Finite Element Methods in Structural Engineering (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "CE4041",
+          "name": "Structural Design III (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "CE4611",
+          "name": "Environmental Engineering Design (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "CE4950",
+          "name": "Applied Machine Learning and AI in Civil Engineering (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "CE4921",
+          "name": "Sustainable Development in Civil Engineering (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "CE4251",
+          "name": "Comprehensive Design Project II",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "CE4931",
+          "name": "Civil Engineering Project II",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "CE4261",
+          "name": "Construction Project Management",
+          "credits": 2,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "CE4413",
+          "name": "Pavement Design (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "CE4731",
+          "name": "Environmental Hydraulics & Hydrology (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "CE4021",
+          "name": "Structural Dynamics and High Rise Buildings (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "CE4031",
+          "name": "Advanced Concrete Design (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "CE4940",
+          "name": "Sensors for Civil Engineering Applications (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "CE4830",
+          "name": "Slope Stability and Design of Earth Retaining Systems (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "CE4721",
+          "name": "Remote Sensing and Geographic Information Systems (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Electrical Electronic Engineering": {
+      "name": "Electrical Electronic Engineering",
+      "courses": [
+        {
+          "code": "CE1020",
+          "name": "Statics and Hydrostatics",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "EC1022",
+          "name": "Electrical Systems",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "MA1111",
+          "name": "Engineering Mathematics I",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "ME1050",
+          "name": "Introduction to Engineering Design and Communication",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "EL1203",
+          "name": "English Language Skills I",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "CE1913",
+          "name": "Introduction to Sustainable Engineering",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "EC1450",
+          "name": "Fundamentals of Programming",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "MA1121",
+          "name": "Engineering Mathematics II",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "MT1010",
+          "name": "Engineering Materials",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "ME1031",
+          "name": "Engineering Skills Development",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "ME1060",
+          "name": "Dynamics",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "EL1213",
+          "name": "English Language Skills II",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "ME2821",
+          "name": "Fluid Mechanics and Thermodynamics",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "EC2093",
+          "name": "Foundations of Digital Design",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "EC2203",
+          "name": "Electrical Circuits",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "EC2493",
+          "name": "Object Oriented Programming",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "EC2132",
+          "name": "Microcomputers",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "MA2111",
+          "name": "Engineering Mathematics III",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "EC2140",
+          "name": "Analogue Electronics",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "EC2113",
+          "name": "Signals and Systems",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "EC2220",
+          "name": "Electrical Machines and Power Systems",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "EC2731",
+          "name": "Data Structures and Algorithms",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "EC2403",
+          "name": "Computer Networks",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "MA2121",
+          "name": "Engineering Mathematics IV",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "Humanities I",
+          "name": "Humanities I",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "Industrial Training I",
+          "name": "Industrial Training I",
+          "credits": 0,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "EC3250",
+          "name": "Electrical Measurements and Instrumentation",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "EC3613",
+          "name": "Communication Engineering I",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "EC3503",
+          "name": "Control Systems",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "EC3013",
+          "name": "Electronic Design",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "EC3193",
+          "name": "Electrical Machines and Stability",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "EC3550",
+          "name": "Robotics and Controls",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ME3260",
+          "name": "Industrial Project Management",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ME3250",
+          "name": "Engineering Economics",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "EC3203",
+          "name": "Engineering Electromagnetics",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "EC3103",
+          "name": "Advanced Digital Design",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "EC3033",
+          "name": "Power Electronics",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "EC3213",
+          "name": "Power Systems Analysis",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "Humanities II",
+          "name": "Humanities II",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "Industrial Training Part 2",
+          "name": "Industrial Training Part 2",
+          "credits": 0,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "EC4830",
+          "name": "Comprehensive Design Project",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "EC4840",
+          "name": "Individual Research Project",
+          "credits": 2,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "EC4920",
+          "name": "Legal Environment in Electrical Engineering",
+          "credits": 2,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "EC4930",
+          "name": "Entrepreneurship Skills Development",
+          "credits": 1,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4112",
+          "name": "Industrial Management and Marketing",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "EC4650",
+          "name": "Communication Engineering II",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "EC4440",
+          "name": "Data Communication and Networking",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "EC4710",
+          "name": "Embedded Systems Programming",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "EC4483",
+          "name": "Computer Vision and Image Processing",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "EC4553",
+          "name": "Digital Signal Processing",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "EC4530",
+          "name": "Machine Learning",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "EC4213",
+          "name": "Electrical Power Transmission and Distribution",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "EC4261",
+          "name": "High Voltage Engineering",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "EC4040",
+          "name": "Electronic Engineering Project",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "EC4462",
+          "name": "Computer Structures (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "EC4031",
+          "name": "Medical Electronics (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "EC4212",
+          "name": "Electrical Power Transmission & Distribution (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "EC4231",
+          "name": "Electromagnetic Propagation (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "EC4552",
+          "name": "Digital Signal Processing (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "EC4241",
+          "name": "Introduction to Smart Grid Control (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "EC4471",
+          "name": "Information Theory & Error Control Coding (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "EC4482",
+          "name": "Computer Vision & Image Processing (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "EC4492",
+          "name": "Neural & Fuzzy Systems (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "EC4502",
+          "name": "Instrumentation & Control (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "EC4511",
+          "name": "Industrial Automation & Process Control (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "EC4522",
+          "name": "Network Management & Security (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "EC4531",
+          "name": "Internet Technologies (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "EC4541",
+          "name": "Distributed Computing (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "EC4672",
+          "name": "Wireless Communications (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "EC4252",
+          "name": "Renewable Energy Systems (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Materials Engineering": {
+      "name": "Materials Engineering",
+      "courses": [
+        {
+          "code": "CE1011",
+          "name": "Engineering Mechanics",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "ME1010",
+          "name": "Engineering Design & Processes",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "EC1021",
+          "name": "Electrical Systems",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "MA1302",
+          "name": "Engineering Mathematics I",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "EL1202",
+          "name": "English Language Skills I",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "CE1912",
+          "name": "Introduction to Sustainable Engineering",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "ME1030",
+          "name": "Engineering Skills Development",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "ME1040",
+          "name": "Engineering Principles & Communication",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "MT1010",
+          "name": "Engineering Materials",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "MA1312",
+          "name": "Engineering Mathematics II",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "EC1441",
+          "name": "Engineering Programming",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "EL1212",
+          "name": "English Language Skills II",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "CE2721",
+          "name": "Fluid Mechanics and Thermodynamics",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "ME2011",
+          "name": "Mechanics of Solids I",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "MT2020",
+          "name": "Metals & Alloys",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "MA2302",
+          "name": "Engineering Mathematics III",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "ME2021",
+          "name": "Mechanics of Machines I",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "MT2010",
+          "name": "Material structure and defects",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "ME2030",
+          "name": "Manufacturing Processes I",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "MT2040",
+          "name": "Ceramics Engineering",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "MT2060",
+          "name": "Material Processing",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "MT2070",
+          "name": "Material Characterisation Techniques",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ME2051",
+          "name": "Mechanical Design I",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "MT2050",
+          "name": "Chemical thermodynamics and phase equilibria",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "CE3910",
+          "name": "Humanities I",
+          "credits": 0,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "MT2080",
+          "name": "Industrial Training I",
+          "credits": 0,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ME3031",
+          "name": "Mechanics of Solids II",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "MT3010",
+          "name": "Plastics & Rubber",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ME3100",
+          "name": "Manufacturing Processes II",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "MT3030",
+          "name": "Construction & Building Materials",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ME3041",
+          "name": "Mechanics of Machines II",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "MT3020",
+          "name": "Phase transformation and Kinetics",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "CE3910",
+          "name": "Humanities II",
+          "credits": 0,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "MT3040",
+          "name": "Corrosion Engineering",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "MT3050",
+          "name": "Nanomaterials & Nanotechnology",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ME3081",
+          "name": "Engineering Management",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ME3091",
+          "name": "Law for Engineers",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "MT3070",
+          "name": "Welding & Joining Processes",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ME3052",
+          "name": "Mechanical Design II",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "MT3060",
+          "name": "Composite Materials",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "MT3080",
+          "name": "Industrial Training II",
+          "credits": 0,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "MT4010",
+          "name": "Materials Engineering Project I",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4111",
+          "name": "Industrial Management & Marketing",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "MT4030",
+          "name": "Advanced Engineering Materials (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "MT4050",
+          "name": "Materials Modelling (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "MT4060",
+          "name": "Surface Engineering (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "MT4070",
+          "name": "Magnetic Materials (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4091",
+          "name": "Energy Technology and Sustainability (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4081",
+          "name": "Computer-aided design and manufacture (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4050",
+          "name": "Computer-aided engineering (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "MT4080",
+          "name": "Materials Engineering Project II",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "MT4090",
+          "name": "Material Application & Design",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "MT4100",
+          "name": "Recycling & Sustainable Materials",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "MT4110",
+          "name": "High Temperature Materials (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "MT4120",
+          "name": "Advanced Manufacturing Processes (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "MT4130",
+          "name": "Energy Materials (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "MT4140",
+          "name": "Bio-Materials (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "MT4150",
+          "name": "Electronic Materials (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "ME4160",
+          "name": "Product Design (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "ME4140",
+          "name": "Design for Manufacture (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Mechanical Engineering": {
+      "name": "Mechanical Engineering",
+      "courses": [
+        {
+          "code": "CE1011",
+          "name": "Engineering Mechanics",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "ME1010",
+          "name": "Engineering Design & Processes",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "EC1021",
+          "name": "Electrical Systems",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "MA1302",
+          "name": "Engineering Mathematics I",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "EL1200",
+          "name": "English Language Skills I",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "CE1912",
+          "name": "Introduction to Sustainable Engineering",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "ME1030",
+          "name": "Engineering Skills Development",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "ME1040",
+          "name": "Engineering Principles & Communication",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "MT1010",
+          "name": "Engineering Materials",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "MA1312",
+          "name": "Engineering Mathematics II",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "EC1441",
+          "name": "Engineering Programming",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "EL1212",
+          "name": "English Language Skills II",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "ME2011",
+          "name": "Mechanics of Solids I",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "CE2712",
+          "name": "Fluid Mechanics I",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "ME2021",
+          "name": "Mechanics of Machines I",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "ME2031",
+          "name": "Engineering Drawing",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "MA2302",
+          "name": "Engineering Mathematics III",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "ME2041",
+          "name": "Thermodynamics",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "ME2051",
+          "name": "Mechanical Design I",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ME2100",
+          "name": "Manufacturing Processes I",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ME2170",
+          "name": "Electrical Plant",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ME2081",
+          "name": "Engineering Sustainable Development",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "Humanities I",
+          "name": "Humanities I",
+          "credits": 0,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ME2911",
+          "name": "Industrial Training I",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ME3012",
+          "name": "Thermal Engineering Processes",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ME3100",
+          "name": "Manufacturing Processes II",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ME3031",
+          "name": "Mechanics of Solids II",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ME3041",
+          "name": "Mechanics of Machines II",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "Humanities II",
+          "name": "Humanities II",
+          "credits": 0,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ME3052",
+          "name": "Mechanical Design II",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ME3061",
+          "name": "Fluid Flow Modelling",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ME3020",
+          "name": "Automatic Control I",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ME3640",
+          "name": "Mechatronics Systems",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ME3081",
+          "name": "Engineering Management",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ME3091",
+          "name": "Law for Engineers",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ME3911",
+          "name": "Industrial Training II",
+          "credits": 0,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ME4250",
+          "name": "Mechanical Engineering Research Project",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4300",
+          "name": "Comprehensive Design Project",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4071",
+          "name": "Production and Operations Management",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4132",
+          "name": "Professional Practice",
+          "credits": 2,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4111",
+          "name": "Industrial Management and Marketing (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4021",
+          "name": "Advanced Engineering Materials (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4030",
+          "name": "Vibration (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4050",
+          "name": "Computer Aided Engineering (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4081",
+          "name": "Computer Aided Design and Manufacture (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4091",
+          "name": "Energy Technology and Sustainability (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4101",
+          "name": "Refrigeration and Air Conditioning (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4250",
+          "name": "Mechanical Engineering Research Project",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "ME4300",
+          "name": "Comprehensive Design Project",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "ME4181",
+          "name": "Industrial Engineering",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "ME4220",
+          "name": "Automotive Engineering",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "ME4140",
+          "name": "Design for Manufacturing (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "ME4150",
+          "name": "Automatic Control II (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "ME4160",
+          "name": "Product Design (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "ME4170",
+          "name": "Noise (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "ME4190",
+          "name": "Advanced Manufacturing Processes (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "ME4201",
+          "name": "Energy Conservation & Management (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "ME4210",
+          "name": "Fluid Power Systems and Machinery (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Mechanical Engineering Mechatronics": {
+      "name": "Mechanical Engineering Mechatronics",
+      "courses": [
+        {
+          "code": "CE1011",
+          "name": "Engineering Mechanics",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "ME1010",
+          "name": "Engineering Design and Processes",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "EC1021",
+          "name": "Electrical Systems",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "MA1302",
+          "name": "Engineering Mathematics I",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "EL1200",
+          "name": "English Language Skills I",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "CE1912",
+          "name": "Introduction to Sustainable Engineering",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "ME1030",
+          "name": "Engineering Skills Development",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "ME1040",
+          "name": "Engineering Principles and Communication",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "MT1010",
+          "name": "Engineering Materials",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "MA1312",
+          "name": "Engineering Mathematics II",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "EC1441",
+          "name": "Engineering Programming",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "EL1212",
+          "name": "English Language Skills II",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "EC2092",
+          "name": "Foundations of Digital Design",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "ME2021",
+          "name": "Mechanics of Machines I",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "EC2202",
+          "name": "Electrical Circuits",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "ME2680",
+          "name": "Computer Aided Drawing",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "MA2302",
+          "name": "Engineering Mathematics III",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "ME2610",
+          "name": "Mechatronics Design Project I",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "ME2510",
+          "name": "Electronics for Mechatronic Engineers",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ME2541",
+          "name": "Mechatronic Systems Engineering",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ME2041",
+          "name": "Thermodynamics",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "EC2212",
+          "name": "Electromagnetic and Electromechanical Energy Conversion",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ME2620",
+          "name": "Manufacturing Technology",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ME2650",
+          "name": "Mechatronics Design Project II",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "Humanities I",
+          "name": "Humanities I",
+          "credits": 0,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ME2911",
+          "name": "Industrial Training I",
+          "credits": 0,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "ME3512",
+          "name": "Embedded Systems Engineering",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ME3620",
+          "name": "Control Systems",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ME3660",
+          "name": "Computer Aided Design and Manufacture",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ME3531",
+          "name": "Solid Mechanics and Mechanical Design",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ME3110",
+          "name": "Fluid Mechanics and Hydraulic Machinery",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "ME3580",
+          "name": "Automation Systems",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "Humanities II",
+          "name": "Humanities II",
+          "credits": 0,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "EC3032",
+          "name": "Power Electronics",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "EC3102",
+          "name": "Advanced Digital Design",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ME3081",
+          "name": "Engineering Management",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ME3091",
+          "name": "Law for Engineers",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ME3571",
+          "name": "Mechatronic Systems Modelling",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ME3610",
+          "name": "Design of Mechatronic Systems",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ME3911",
+          "name": "Industrial Training II",
+          "credits": 0,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "ME4500",
+          "name": "Mechatronics Research Project",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4600",
+          "name": "Comprehensive Design Project",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4521",
+          "name": "Advanced Automation Systems",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4071",
+          "name": "Production and Operations Management",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4132",
+          "name": "Professional Practice",
+          "credits": 2,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4111",
+          "name": "Industrial Management and Marketing (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "EC4012",
+          "name": "Power Electronics and Drives (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4630",
+          "name": "Artificial Intelligence and Machine Learning (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4650",
+          "name": "Industrial Machine Vision (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "EC4432",
+          "name": "Embedded Systems Engineering II (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4091",
+          "name": "Energy Technology and Sustainability (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "ME4500",
+          "name": "Mechatronics Research Project",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "ME4600",
+          "name": "Comprehensive Design Project",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "ME4181",
+          "name": "Industrial Engineering",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "ME4541",
+          "name": "Robotics and Autonomous Systems (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "ME4150",
+          "name": "Automatic Control II (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "ME4550",
+          "name": "Object Oriented programming for Mechatronics Engineers (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "ME4220",
+          "name": "Automotive Engineering (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "ME4670",
+          "name": "Advanced Topics in Mechatronics Engineering (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "ME4570",
+          "name": "Micro-Mechatronics (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Quantity Surveying": {
+      "name": "Quantity Surveying",
+      "courses": [
+        {
+          "code": "QS1600",
+          "name": "Mathematics and Statistics 1",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "QS1400",
+          "name": "Construction Technology 1",
+          "credits": 4,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "QS1410",
+          "name": "Construction Drawing",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "QS1420",
+          "name": "Science and Materials",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "QS1900",
+          "name": "Communication Skills 1",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "QS1300",
+          "name": "Digital Quantity Surveying 1",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "QS1800",
+          "name": "Introduction to Law",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "QS1430",
+          "name": "Structures",
+          "credits": 4,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "QS1100",
+          "name": "Measuremen",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "QS1610",
+          "name": "Management and Finance 1",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "QS1910",
+          "name": "Communication Skills 2",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "QS2620",
+          "name": "Economics 1",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "QS2630",
+          "name": "Construction Project Management",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "QS2440",
+          "name": "Land Surveying",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "QS2450",
+          "name": "Construction Technology 2",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "QS2110",
+          "name": "Advanced Measurement",
+          "credits": 4,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "QS2460",
+          "name": "Specification Writing",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "QS2810",
+          "name": "Contract Administration",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "QS2310",
+          "name": "Digital Quantity Surveying 2",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "QS2470",
+          "name": "Building Services",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "QS2200",
+          "name": "Construction Procurement",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "QS2000",
+          "name": "Industrial Training 1",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "QS3820",
+          "name": "Construction Contract Law",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "QS3480",
+          "name": "Infrastructure Technology",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "QS3050",
+          "name": "Collaborative Interdisciplinary Project",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "QS3650",
+          "name": "Economics 2",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "QS3210",
+          "name": "Tendering and Pricing",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "QS3220",
+          "name": "Industrial Project Management",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "QS3660",
+          "name": "Engineering Economics",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "QS3120",
+          "name": "Engineering Electromagnetics",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "QS3670",
+          "name": "Advanced Digital Design",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "QS3680",
+          "name": "Power Electronics",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "QS3010",
+          "name": "Industrial Training 2",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "QS4320",
+          "name": "Digital Integration",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "QS4690",
+          "name": "Development Economics and Project Financing",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "QS4020",
+          "name": "Research Methods 1",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "QS4030",
+          "name": "Research Project",
+          "credits": 6,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "QS4040",
+          "name": "Research Methods 2",
+          "credits": 2,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "QS4030",
+          "name": "Research Project",
+          "credits": 6,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "QS4130",
+          "name": "Civil Engineering Measuremen",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "QS4700",
+          "name": "Professional Practice and Entrepreneurship",
+          "credits": 2,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2522 @@
+{
+  "facultyCode": "SBS",
+  "facultyName": "School of Business",
+  "wgpaWeights": {
+    "Business_Programs": {
+      "Year1": "10%",
+      "Year2": "20%",
+      "Year3": "30%",
+      "Year4": "40%"
+    }
+  },
+  "degreeClassification": [
+    {
+      "name": "First Class Honours",
+      "minWGPA": 3.7,
+      "maxWGPA": 4.0
+    },
+    {
+      "name": "Second Class Honours (Upper)",
+      "minWGPA": 3.3,
+      "maxWGPA": 3.69
+    },
+    {
+      "name": "Second Class Honours (Lower)",
+      "minWGPA": 3.0,
+      "maxWGPA": 3.29
+    },
+    {
+      "name": "Third Class",
+      "minWGPA": 2.0,
+      "maxWGPA": 2.99
+    },
+    {
+      "name": "Pass",
+      "minWGPA": 0.0,
+      "maxWGPA": 1.99
+    },
+    {
+      "name": "General_Requirements",
+      "minWGPA": 0.0,
+      "maxWGPA": 0.0
+    }
+  ],
+  "programs": {
+    "Business Management": {
+      "name": "Business Management",
+      "courses": [
+        {
+          "code": "BM1011",
+          "name": "Learning and Study Skills",
+          "credits": 1,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1012",
+          "name": "Principles of Management",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1030",
+          "name": "Microeconomics",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1014",
+          "name": "Business Mathematics",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1015",
+          "name": "Information Technology for Business",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1016",
+          "name": "English Language Skills",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1041",
+          "name": "Self-Management",
+          "credits": 1,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1042",
+          "name": "Macroeconomics",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1043",
+          "name": "Financial Accounting",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1044",
+          "name": "Legal & Political Environment in Business",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1045",
+          "name": "Human Resource Management",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1046",
+          "name": "Business Communication",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM2011",
+          "name": "Personal Development Planning",
+          "credits": 1,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2012",
+          "name": "Organizational Behavior",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2013",
+          "name": "Business Information Systems",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2014",
+          "name": "Principles of Marketing",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2015",
+          "name": "Business Statistics",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2016",
+          "name": "Operations Management",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2071",
+          "name": "Leadership and Teamwork",
+          "credits": 1,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2072",
+          "name": "Business Negotiation",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2573",
+          "name": "Sociology and Psychology",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2376",
+          "name": "Management Accounting",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2373",
+          "name": "Financial Management",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2576",
+          "name": "Entrepreneurship and Managing Innovation",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM3011",
+          "name": "Career Readiness and Business Etiquettes",
+          "credits": 1,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3012",
+          "name": "Business Ethics & Values",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3513",
+          "name": "Economic Analysis for Managers",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3514",
+          "name": "Business Law",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3013",
+          "name": "Project Management",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3212",
+          "name": "People Analytics",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3061",
+          "name": "Business Research Methods",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM3031",
+          "name": "Business Internship",
+          "credits": 6,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM3121",
+          "name": "Digital Marketing",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM3221",
+          "name": "Human Resource Information Systems",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM4011",
+          "name": "Comprehensive Research Project",
+          "credits": 9,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BM4012",
+          "name": "Strategic Management",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BM4513",
+          "name": "Crisis and Business Continuity Management",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BM4113",
+          "name": "Logistics & Supply Chain Management (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BM4311",
+          "name": "Taxation (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BM4521",
+          "name": "Diversity Management",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "BM4522",
+          "name": "Sustainable Development in Business Environment",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "BM4523",
+          "name": "International Business Management",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "BM4524",
+          "name": "Managing Productivity and Quality",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Business Analytics": {
+      "name": "Business Analytics",
+      "courses": [
+        {
+          "code": "BM1011",
+          "name": "Learning and Study Skills",
+          "credits": 1,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1012",
+          "name": "Principles of Management",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1030",
+          "name": "Microeconomics",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1014",
+          "name": "Business Mathematics",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1015",
+          "name": "Information Technology for Business",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1016",
+          "name": "English Language Skills",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1041",
+          "name": "Self-Management",
+          "credits": 1,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1042",
+          "name": "Macroeconomics",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1043",
+          "name": "Financial Accounting",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1044",
+          "name": "Legal & Political Environment in Business",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1045",
+          "name": "Human Resource Management",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1046",
+          "name": "Business Communication",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM2011",
+          "name": "Personal Development Planning",
+          "credits": 1,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2012",
+          "name": "Organizational Behavior",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2013",
+          "name": "Business Information Systems",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2014",
+          "name": "Principles of Marketing",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2015",
+          "name": "Business Statistics",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2016",
+          "name": "Operations Management",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2071",
+          "name": "Leadership and Teamwork",
+          "credits": 1,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2072",
+          "name": "Business Negotiation",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IM2710",
+          "name": "Foundations of Business Analytics",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IM2711",
+          "name": "Mastering Data Analysis in Excel",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IM2675",
+          "name": "Database Management Systems",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IM2713",
+          "name": "Digital Strategy and Innovation",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IM3721",
+          "name": "Customer Analytics",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IM3722",
+          "name": "Data Science in Real Life",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IM3723",
+          "name": "Data Visualization",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3011",
+          "name": "Career Readiness and Business Etiquettes",
+          "credits": 1,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3013",
+          "name": "Project Management",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3012",
+          "name": "Business Ethics and Values",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IM3641",
+          "name": "R and Python Programming",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IM3741",
+          "name": "Operations Analytics",
+          "credits": 2,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM3061",
+          "name": "Business Research Methods",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM3031",
+          "name": "Business Internship",
+          "credits": 6,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM4011",
+          "name": "Comprehensive Research Project",
+          "credits": 9,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BM4012",
+          "name": "Strategic Management",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IM4710",
+          "name": "Business Metrics for Data Driven Companies",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IM4730",
+          "name": "Social Media and Web Analytics",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IM4711",
+          "name": "Information Systems Management and Security (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IM4712",
+          "name": "Supply Chain Analytics (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IM4750",
+          "name": "Decision Modeling for Business Analytics",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IM4751",
+          "name": "Data Mining and Predictive analytics",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IM4740",
+          "name": "Accounting Analytics (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IM4720",
+          "name": "People Analytics (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Marketing Management": {
+      "name": "Marketing Management",
+      "courses": [
+        {
+          "code": "BM1011",
+          "name": "Learning and Study Skills",
+          "credits": 1,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1012",
+          "name": "Principles of Management",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1030",
+          "name": "Microeconomics",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1014",
+          "name": "Business Mathematics",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1015",
+          "name": "Information Technology for Business",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1016",
+          "name": "English Language Skills",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1041",
+          "name": "Self-Management",
+          "credits": 1,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1042",
+          "name": "Macroeconomics",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1043",
+          "name": "Financial Accounting",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1044",
+          "name": "Legal & Political Environment in Business",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1045",
+          "name": "Human Resource Management",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1046",
+          "name": "Business Communication",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM2011",
+          "name": "Personal Development Planning",
+          "credits": 1,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2012",
+          "name": "Organizational Behavior",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2013",
+          "name": "Business Information Systems",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2014",
+          "name": "Principles of Marketing",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2015",
+          "name": "Business Statistics",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2016",
+          "name": "Operations Management",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2071",
+          "name": "Leadership and Teamwork",
+          "credits": 1,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2072",
+          "name": "Business Negotiation",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2173",
+          "name": "Consumer Behavior",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2174",
+          "name": "Integrated Marketing Communication",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2175",
+          "name": "Sales Management",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2176",
+          "name": "Services Marketing",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM3011",
+          "name": "Career Readiness and Business Etiquettes",
+          "credits": 1,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3012",
+          "name": "Business Ethics & Values",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3514",
+          "name": "Business Law",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM31111",
+          "name": "Retail and Omnichannel Management",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3112",
+          "name": "Marketing Analytics & Decision Making",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3214",
+          "name": "Advertising",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3061",
+          "name": "Business Research Methods",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM3031",
+          "name": "Business Internship",
+          "credits": 6,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM3121",
+          "name": "Digital Marketing",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM3122",
+          "name": "Event Management",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM4011",
+          "name": "Comprehensive Research Project",
+          "credits": 9,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BM4012",
+          "name": "Strategic Management",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BM4111",
+          "name": "Strategic Brand Management",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BM4112",
+          "name": "Industrial Government and Agricultural Marketing (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BM4113",
+          "name": "Logistics and Supply chain Management (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BM4121",
+          "name": "The Entrepreneurial Marketers",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "BM4122",
+          "name": "Social and Sustainable Marketing",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "BM4123",
+          "name": "Global Marketing",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Accounting Finance": {
+      "name": "Accounting Finance",
+      "courses": [
+        {
+          "code": "BM1011",
+          "name": "Learning and Study Skills",
+          "credits": 1,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1012",
+          "name": "Principles of Management",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1030",
+          "name": "Microeconomics",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1014",
+          "name": "Business Mathematics",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1015",
+          "name": "Information Technology for Business",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1016",
+          "name": "English Language Skills",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1041",
+          "name": "Self-Management",
+          "credits": 1,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1042",
+          "name": "Macroeconomics",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1043",
+          "name": "Financial Accounting",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1044",
+          "name": "Legal & Political Environment in Business",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1045",
+          "name": "Human Resource Management",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1046",
+          "name": "Business Communication",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM2011",
+          "name": "Personal Development Planning",
+          "credits": 1,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2012",
+          "name": "Organizational Behavior",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2013",
+          "name": "Business Information Systems",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2014",
+          "name": "Principles of Marketing",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2015",
+          "name": "Business Statistics",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2016",
+          "name": "Operations Management",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2071",
+          "name": "Leadership and Teamwork",
+          "credits": 1,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2072",
+          "name": "Business Negotiation",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2373",
+          "name": "Financial Management",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2374",
+          "name": "Advanced Financial Accounting",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2375",
+          "name": "Application Software in Accounting",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2376",
+          "name": "Management Accounting",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM3011",
+          "name": "Career Readiness and Business Etiquettes",
+          "credits": 1,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3012",
+          "name": "Business Ethics & Values",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3373",
+          "name": "Advanced Management Accounting",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3374",
+          "name": "Financial Reporting",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3375",
+          "name": "Corporate Finance",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3013",
+          "name": "Project Management (Elective)",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3514",
+          "name": "Business Law (Elective)",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3061",
+          "name": "Business Research Methods",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM3031",
+          "name": "Business Internship",
+          "credits": 6,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM3311",
+          "name": "Financial Analysis for Business",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM3312",
+          "name": "Contemporary Issues in Accounting and Finance",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM4011",
+          "name": "Comprehensive Research Project",
+          "credits": 9,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BM4012",
+          "name": "Strategic Management",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BM4311",
+          "name": "Taxation",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BM4312",
+          "name": "Investment Analysis and Portfolio Management",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BM4313",
+          "name": "Forensic Accounting (Elective)",
+          "credits": 2,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BM4314",
+          "name": "Data Analytics and Visualization for Accounting (Elective)",
+          "credits": 2,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BM4321",
+          "name": "Strategic Finance",
+          "credits": 2,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "BM4322",
+          "name": "International Financial Management",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "BM4323",
+          "name": "Audit and Assurance",
+          "credits": 2,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "BM4324",
+          "name": "Financial Modeling",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Human Capital Management": {
+      "name": "Human Capital Management",
+      "courses": [
+        {
+          "code": "BM1011",
+          "name": "Learning and Study Skills",
+          "credits": 1,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1012",
+          "name": "Principles of Management",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1030",
+          "name": "Microeconomics",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1014",
+          "name": "Business Mathematics",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1015",
+          "name": "Information Technology for Business",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1016",
+          "name": "English Language Skills",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1041",
+          "name": "Self-Management",
+          "credits": 1,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1042",
+          "name": "Macroeconomics",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1043",
+          "name": "Financial Accounting",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1044",
+          "name": "Legal & Political Environment in Business",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1045",
+          "name": "Human Resource Management",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1046",
+          "name": "Business Communication",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM2011",
+          "name": "Personal Development Planning",
+          "credits": 1,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2012",
+          "name": "Organizational Behavior",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2013",
+          "name": "Business Information Systems",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2014",
+          "name": "Principles of Marketing",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2015",
+          "name": "Business Statistics",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2016",
+          "name": "Operations Management",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2071",
+          "name": "Leadership and Teamwork",
+          "credits": 1,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2072",
+          "name": "Business Negotiation",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2273",
+          "name": "HR Practices",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2274",
+          "name": "Human Capital Development",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2275",
+          "name": "Managing Performance & Rewards",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2276",
+          "name": "Labour Law",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM3011",
+          "name": "Career Readiness and Business Etiquettes",
+          "credits": 1,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3012",
+          "name": "Business Ethics & Values",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3211",
+          "name": "4th & 5th Industrial Revolutions & AI in HCM",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3212",
+          "name": "People Analytics",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3213",
+          "name": "Occupational Health and Safety",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3214",
+          "name": "Employee Relations",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3061",
+          "name": "Business Research Methods",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM3031",
+          "name": "Business Internship",
+          "credits": 6,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM3221",
+          "name": "Human Resource Information Systems",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM3222",
+          "name": "Organizational Change and Development",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM4011",
+          "name": "Comprehensive Research Project",
+          "credits": 9,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BM4012",
+          "name": "Strategic Management",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BM4211",
+          "name": "Contemporary Issues in Human Capital Management",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BM4212",
+          "name": "International Perspective of Human Capital Management (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BM4213",
+          "name": "Lean Six Sigma in HCM (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "BM4221",
+          "name": "Digital HR",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "BM4222",
+          "name": "Strategic Human Resource Management",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "BM4223",
+          "name": "HCM Simulation",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "BM4224",
+          "name": "Entrepreneurship (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "BM4225",
+          "name": "Psychology and Counselling (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "BM4226",
+          "name": "Labour Economics (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Logistics Supply Chain Management": {
+      "name": "Logistics Supply Chain Management",
+      "courses": [
+        {
+          "code": "BM1011",
+          "name": "Learning and Study Skills",
+          "credits": 1,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1012",
+          "name": "Principles of Management",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1030",
+          "name": "Microeconomics",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1014",
+          "name": "Business Mathematics",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1015",
+          "name": "Information Technology for Business",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1016",
+          "name": "English Language Skills",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1041",
+          "name": "Self-Management",
+          "credits": 1,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1042",
+          "name": "Macroeconomics",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1043",
+          "name": "Financial Accounting",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1044",
+          "name": "Legal & Political Environment in Business",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1045",
+          "name": "Human Resource Management",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1046",
+          "name": "Business Communication",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM2011",
+          "name": "Personal Development Planning",
+          "credits": 1,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2012",
+          "name": "Organizational Behavior",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2013",
+          "name": "Business Information Systems",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2014",
+          "name": "Principles of Marketing",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2015",
+          "name": "Business Statistics",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2016",
+          "name": "Operations Management",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2071",
+          "name": "Leadership and Teamwork",
+          "credits": 1,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2072",
+          "name": "Business Negotiation",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IM2410",
+          "name": "Supply Chain Forecasting",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IM2420",
+          "name": "Strategic Sourcing",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IM2430",
+          "name": "Inventory and Warehouse Management",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IM2440",
+          "name": "Lean Management",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM3011",
+          "name": "Career Readiness and Business Etiquettes",
+          "credits": 1,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3012",
+          "name": "Business Ethics & Values",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IM3411",
+          "name": "Manufacturing Resource Planning",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IM3421",
+          "name": "Logistics Management",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3013",
+          "name": "Project Management",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3015",
+          "name": "Strategic Management",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3061",
+          "name": "Business Research Methods",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM3031",
+          "name": "Business Internship",
+          "credits": 6,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IE3081",
+          "name": "Enterprise Resource Planning",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM4011",
+          "name": "Comprehensive Research Project",
+          "credits": 9,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IM4411",
+          "name": "Global Supply Chain Management",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IM4412",
+          "name": "Strategic Supply Chain Management",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IM4413",
+          "name": "Supplier Relationship Management",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IM4421",
+          "name": "Sustainable Supply Chain Management",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IM4422",
+          "name": "Lean Six Sigma",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IM4423",
+          "name": "Transport Management",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IM4822",
+          "name": "Business Analytics & Simulation (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IM4824",
+          "name": "Data Science and Industry 4.0 (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Management Information Systems": {
+      "name": "Management Information Systems",
+      "courses": [
+        {
+          "code": "BM1011",
+          "name": "Learning and Study Skills",
+          "credits": 1,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1012",
+          "name": "Principles of Management",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1030",
+          "name": "Microeconomics",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1014",
+          "name": "Business Mathematics",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1015",
+          "name": "Information Technology for Business",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1016",
+          "name": "English Language Skills",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1041",
+          "name": "Self-Management",
+          "credits": 1,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1042",
+          "name": "Macroeconomics",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1043",
+          "name": "Financial Accounting",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1044",
+          "name": "Legal & Political Environment in Business",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1045",
+          "name": "Human Resource Management",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1046",
+          "name": "Business Communication",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM2011",
+          "name": "Personal Development Planning",
+          "credits": 1,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2012",
+          "name": "Organizational Behavior",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2013",
+          "name": "Business Information Systems",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2014",
+          "name": "Principles of Marketing",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2015",
+          "name": "Business Statistics",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2016",
+          "name": "Operations Management",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2071",
+          "name": "Leadership and Teamwork",
+          "credits": 1,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2072",
+          "name": "Business Negotiation",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IM2673",
+          "name": "Management Information Systems",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IM2674",
+          "name": "Electronic Business Strategy",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IM2675",
+          "name": "Database Management Systems",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IM2676",
+          "name": "Introduction to Applications Development",
+          "credits": 4,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM3011",
+          "name": "Career Readiness and Business Etiquettes",
+          "credits": 1,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3012",
+          "name": "Business Ethics and Values",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3015",
+          "name": "Strategic Management",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IM3650",
+          "name": "IS Project Management & Practice",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IE3041",
+          "name": "Data Management & Business Intelligence",
+          "credits": 4,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3061",
+          "name": "Business Research Methods",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM3031",
+          "name": "Business Internship",
+          "credits": 6,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IM3641",
+          "name": "R and Python Programming",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IE3081",
+          "name": "Enterprise Resource Planning",
+          "credits": 4,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM4011",
+          "name": "Comprehensive Research Project in MIS",
+          "credits": 9,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IM4691",
+          "name": "Software Quality Assurance",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IM4692",
+          "name": "Object Oriented Programming",
+          "credits": 4,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IM4611",
+          "name": "Digital Entrepreneurship (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IM4610",
+          "name": "Decision Support Systems (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IM4621",
+          "name": "Information Security & Assurance",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IM4622",
+          "name": "Data Communication and Networking",
+          "credits": 4,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IM4670",
+          "name": "Business Consultancy (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IM4671",
+          "name": "Knowledge Management (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IM4650",
+          "name": "IT Service Management (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    },
+    "Quality Management": {
+      "name": "Quality Management",
+      "courses": [
+        {
+          "code": "BM1011",
+          "name": "Learning and Study Skills",
+          "credits": 1,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1012",
+          "name": "Principles of Management",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1030",
+          "name": "Microeconomics",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1014",
+          "name": "Business Mathematics",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1015",
+          "name": "Information Technology for Business",
+          "credits": 3,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1016",
+          "name": "English Language Skills",
+          "credits": 2,
+          "year": 1,
+          "semester": 1
+        },
+        {
+          "code": "BM1041",
+          "name": "Self-Management",
+          "credits": 1,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1042",
+          "name": "Macroeconomics",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1043",
+          "name": "Financial Accounting",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1044",
+          "name": "Legal & Political Environment in Business",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1045",
+          "name": "Human Resource Management",
+          "credits": 3,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM1046",
+          "name": "Business Communication",
+          "credits": 2,
+          "year": 1,
+          "semester": 2
+        },
+        {
+          "code": "BM2011",
+          "name": "Personal Development Planning",
+          "credits": 1,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2012",
+          "name": "Organizational Behavior",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2013",
+          "name": "Business Information Systems",
+          "credits": 2,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2014",
+          "name": "Principles of Marketing",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2015",
+          "name": "Business Statistics",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2016",
+          "name": "Operations Management",
+          "credits": 3,
+          "year": 2,
+          "semester": 1
+        },
+        {
+          "code": "BM2071",
+          "name": "Leadership and Teamwork",
+          "credits": 1,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM2072",
+          "name": "Business Negotiation",
+          "credits": 2,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IM2810",
+          "name": "Introduction to Quality",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IM2820",
+          "name": "Quality Tools and Problem-Solving Models",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IM2830",
+          "name": "Management System Auditing",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IM2430",
+          "name": "Inventory and Warehouse Management (Elective)",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "IM2840",
+          "name": "Quantitative and Qualitative Forecasting (Elective)",
+          "credits": 3,
+          "year": 2,
+          "semester": 2
+        },
+        {
+          "code": "BM3011",
+          "name": "Career Readiness and Business Etiquettes",
+          "credits": 1,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3012",
+          "name": "Business Ethics and Values",
+          "credits": 2,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3015",
+          "name": "Strategic Management",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3013",
+          "name": "Project Management",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IM3811",
+          "name": "Managing Quality in Services",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "IM3812",
+          "name": "Customer Experience and Business Process Management",
+          "credits": 3,
+          "year": 3,
+          "semester": 1
+        },
+        {
+          "code": "BM3061",
+          "name": "Business Research Methods",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM3031",
+          "name": "Business Internship",
+          "credits": 6,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IM3850",
+          "name": "Toyota Production System and Lean Management",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "IM3870",
+          "name": "Total Productive Maintenance",
+          "credits": 3,
+          "year": 3,
+          "semester": 2
+        },
+        {
+          "code": "BM4011",
+          "name": "Comprehensive Research Project",
+          "credits": 9,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IM4810",
+          "name": "Six Sigma and Lean Six Sigma",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IM4830",
+          "name": "Process Automation and Artificial Intelligence (AI)",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IM4811",
+          "name": "Business Excellence Models and Awards",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IM4812",
+          "name": "Quality Management System Software",
+          "credits": 3,
+          "year": 4,
+          "semester": 1
+        },
+        {
+          "code": "IM4821",
+          "name": "Experimental Design and Reliability Management",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IM4822",
+          "name": "Business Analytics and Simulation",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IM4823",
+          "name": "Managing Innovation and use of Ideation Tools (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        },
+        {
+          "code": "IM4824",
+          "name": "Data Science and Industry 4.0 (Elective)",
+          "credits": 3,
+          "year": 4,
+          "semester": 2
+        }
+      ]
+    }
+  }
+}

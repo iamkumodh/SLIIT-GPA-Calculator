@@ -1,0 +1,105 @@
+# SLIIT GPA Calculator
+
+A modern, user-friendly GPA calculator designed specifically for undergraduates at the Sri Lanka Institute of Information Technology (SLIIT). This tool helps you calculate your Semester GPA (SGPA) and Weighted Cumulative GPA (CGPA) instantly, supporting all faculties and departments.
+
+## Features
+
+- **Comprehensive Support**: Covers all SLIIT faculties:
+  - Faculty of Computing
+  - Faculty of Engineering
+  - SLIIT Business School
+  - Faculty of Humanities & Sciences
+  - School of Architecture
+  - (Topup Courses provided by SLIIT and courses that are made with partnerships with foreign universities may not be included in the database).
+- **Smart Calculations**:
+  - Calculates **SGPA** based on module credits and grades.
+  - Calculates **Weighted CGPA** according to faculty-specific weighting rules.
+  - **Faculty of Computing Logic**: Accurately handles different weighting for IT streams (where Year 1 courses may not impact CGPA) vs. CS/CSE streams (where Year 1 courses contribute 10% to CGPA), as per the 2025 Student Handbook and departmental standards.
+- **Detailed Breakdown**: View your performance semester-by-semester.
+- **Dean's List Recognition**: Automatically detects if you've made the Dean's List (GPA ≥ 3.7) and celebrates with an animation!
+- **Motivational Feedback**: Provides encouraging messages based on your calculated GPA to keep you motivated.
+- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices.
+- **Dark Mode**: Respects your system preference for light or dark themes.
+
+## Calculation Notes
+
+- **Faculty of Computing (CS/CSE courses)**: While the general handbook may not explicitly detail the weighting for Computer Science and Computer Systems Engineering, this calculator applies a 10% contribution from Year 1 to the final CGPA, reflecting current academic department standards verified by students.
+- **General Estimation**: All calculations are estimates based on the available module credits and grading systems. Official results may vary slightly due to specific academic regulations not covered here.
+
+## Technologies Used
+
+- **HTML**: Semantic structure and accessibility.
+- **CSS**: Custom styling with responsive layouts and animations.
+- **JavaScript**: Core logic for dynamic data loading, GPA calculation, and UI interactions.
+- **JSON**: Data storage for faculty modules, credits, and degree structures.
+
+## Local Development
+
+Since this project relies on fetching local JSON files, modern browsers will block these requests if you simply open `index.html` directly. You must run a local web server.
+
+### Steps
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/iamkumodh/SLIIT-GPA-Calculator.git
+   cd SLIIT-GPA-Calculator
+   ```
+
+2. **Start a local server:**
+
+   **Using Python:**
+   ```bash
+   python -m http.server
+   ```
+   **Using Node.js:**
+   ```bash
+   npx serve
+   ```
+
+3. **Open in Browser:**
+   Open your web browser and navigate to the port shown in your terminal.
+
+## How to Use
+
+1. **Select Faculty**: Choose your faculty from the dropdown menu.
+2. **Select Department/Program**: Pick your specific degree program.
+3. **Select Year**: Navigate through the tabs to find your current academic year.
+4. **Enter Grades**: Select your obtained or expected grades for each module in the semester.
+5. **Calculate**: Click the "Calculate GPA" button.
+6. **View Results**: Scroll down to see your SGPA, Weighted CGPA, and a detailed breakdown.
+
+## Reporting Issues
+
+If you encounter any bugs, incorrect calculations, or missing modules, please [open an issue](https://github.com/iamkumodh/SLIIT-GPA-Calculator/issues) on GitHub.
+
+When reporting an issue, please include:
+- The Faculty and Degree program you selected.
+- The specific module or calculation that seems incorrect.
+- Screenshots if possible.
+
+## Contributing
+
+Contributions are always welcome! Whether you find a bug, have a missing module to add, or want to improve the UI, your help is appreciated to make this tool better for everyone.
+
+## Acknowledgements
+
+- This project uses data based on the **2025 SLIIT Student Handbooks**.
+- [Claude Code](https://www.claude.com/product/claude-code) (Sonnet 4.5) was used to scrape data from PDF files, generate JSON files, and help write advanced JavaScript logic (such as abbreviating course names for the mobile view and congrats message popup).
+- [Tailwind CSS](https://tailwindcss.com/) was used to style the UI.
+- Fonts provided by [Google Fonts](https://fonts.google.com/).
+- Icons used in the interface are SVG based.
+- Logo icon was taken from [Heroicons](https://heroicons.com/).
+
+## Disclaimer
+
+**Please Note:**
+This GPA calculator is an **independent, student-developed tool**. It is **NOT** affiliated with, endorsed by, or sponsored by the Sri Lanka Institute of Information Technology (SLIIT).
+
+While effort has been made to ensure accuracy based on the 2025 Student Handbook, the results generated by this tool are for estimation purposes only. The official GPA calculations provided by the SLIIT administration should be considered final and authoritative. Use this tool at your own discretion.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+Made with ❤️ by **Kumodh**
