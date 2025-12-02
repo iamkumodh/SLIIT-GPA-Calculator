@@ -30,9 +30,45 @@ const gradePoints = {
 };
 
 function abbreviateModuleName(fullName) {
-    return fullName
-        .split(' ')
-        .filter(word => word !== '&' && word !== 'and' && word !== '-')
+    // Remove ()
+    const nameWithoutParens = fullName.replace(/\([^)]*\)/g, '').trim();
+
+    // Check if name has roman numberd
+    const romanNumberMatch = nameWithoutParens.match(/^(.+?)(?:\s*-\s*|\s+)\b([I]+)$/);
+
+    if (romanNumberMatch) {
+        // Split into base name and roman number
+        const baseName = romanNumberMatch[1].trim();
+        const romanNumber = romanNumberMatch[2];
+
+        const baseWords = baseName.split(' ').filter(word => word.length > 0);
+
+        // If base is 1 word, return it with the number
+        if (baseWords.length === 1) {
+            return baseWords[0] + '-' + romanNumber;
+        }
+
+        // Abbreviate base name 
+        // Skip &, and, -, of, in, for
+        const abbreviated = baseWords
+            .filter(word => word !== '&' && word !== 'and' && word !== '-' && word !== 'of' && word !== 'in' && word !== 'for')
+            .map(word => word.charAt(0).toUpperCase())
+            .join('');
+
+        return abbreviated + '-' + romanNumber;
+    }
+
+    // Split into words 
+    const words = nameWithoutParens.split(' ').filter(word => word.length > 0);
+
+    // If only one word, return it as is
+    if (words.length === 1) {
+        return words[0];
+    }
+
+    // Otherwise abbreviate (skip 'and', 'of', '&', '-', 'in', 'for')
+    return words
+        .filter(word => word !== '&' && word !== 'and' && word !== '-' && word !== 'of' && word !== 'in' && word !== 'for')
         .map(word => word.charAt(0).toUpperCase())
         .join('');
 }

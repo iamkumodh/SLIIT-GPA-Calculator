@@ -8,8 +8,9 @@ html {
     -webkit-tap-highlight-color: transparent;
     -webkit-text-size-adjust: 100%;
 }
-/* Light mode colors */
+
 :root {
+    /* Light mode colors */
     --bg-primary: #ffffff;
     --bg-secondary: #f8fafc;
     --bg-tertiary: #f1f5f9;
@@ -24,8 +25,9 @@ html {
     --shadow: rgba(0, 0, 0, 0.1);
     --shadow-hover: rgba(0, 0, 0, 0.15);
 }
-/* Dark mode colors */
+
 .dark {
+    /* Dark mode colors */
     --bg-primary: #0f172a;
     --bg-secondary: #1e293b;
     --bg-tertiary: #334155;
@@ -177,13 +179,19 @@ body {
     }
 
     .semester-tabs {
-        gap: 8px;
+        gap: 6px;
         margin-bottom: 16px;
     }
 
     .semester-tab {
-        padding: 10px 16px;
-        font-size: 0.9rem;
+        display: flex !important;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+        padding: 10px 2px;
+        font-size: 0.8rem;
+        white-space: nowrap;
     }
 
     .semester-container {
@@ -304,7 +312,8 @@ body {
 
     .disclaimer {
         padding: 16px;
-        font-size: 0.85rem;
+        font-size: 0.7rem;
+        line-height: 1.4;
     }
 
     .congrats-content {
@@ -336,7 +345,7 @@ body {
 /* Year Tabs Styling */
 .semester-tabs {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 10px;
     margin-bottom: 25px;
     border-bottom: 2px solid var(--border-color);
@@ -344,6 +353,8 @@ body {
 }
 
 .semester-tab {
+    flex: 0 1 auto; /*ful width on mobile, auto on PC */
+    min-width: 0;
     padding: 12px 24px;
     background: var(--bg-secondary);
     border: 2px solid var(--border-color);
@@ -354,6 +365,7 @@ body {
     transition: all 0.3s ease;
     font-family: 'Space Grotesk', sans-serif;
     font-size: 1rem;
+    text-align: center;
 }
 
 .semester-tab:hover {
@@ -381,6 +393,7 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     margin-bottom: 30px;
+    align-items: start; /*allow tables to have different heights */
 }
 
 @media (max-width: 1024px) {
@@ -429,7 +442,7 @@ body {
     .modules-table thead th {
         padding: 6px 1px;
         font-size: 0.6rem;
-        word-wrap: break-word;
+        white-space: nowrap;
         line-height: 1.2;
     }
 
@@ -448,7 +461,8 @@ body {
     }
 
     .credits {
-        font-size: 0.65rem;
+        font-size: 0.8rem;
+        font-weight: 700;
     }
 
     .grade-select {
@@ -555,7 +569,7 @@ body {
     border-radius: 8px;
     overflow: hidden;
     background: var(--bg-primary);
-    table-layout: fixed;
+    table-layout: fixed; /* Fixed for mobile will be overridden to auto on desktop */
 }
 
 .modules-table thead {
@@ -571,6 +585,39 @@ body {
     font-size: 0.875rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+}
+
+/* table column widths - desktop=>769px */
+@media (min-width: 769px) {
+    .modules-table {
+        table-layout: auto;
+    }
+
+    .modules-table th:nth-child(1),
+    .modules-table td:nth-child(1) {
+        width: 110px;
+    }
+
+    .modules-table th:nth-child(2),
+    .modules-table td:nth-child(2) {
+        width: auto;
+        min-width: 200px;
+    }
+
+    .modules-table th:nth-child(3),
+    .modules-table td:nth-child(3) {
+        width: 80px;
+        text-align: center;
+    }
+
+    .modules-table thead th:nth-child(3) {
+        text-align: center;
+    }
+
+    .modules-table th:nth-child(4),
+    .modules-table td:nth-child(4) {
+        width: 140px;
+    }
 }
 
 .modules-table tbody tr {
@@ -869,11 +916,57 @@ body {
     margin-bottom: 8px;
 }
 
+.github-repo {
+    text-align: center;
+    padding: 16px 0 5px;
+    font-size: 0.875rem;
+}
+
+.github-para {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.github-button {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 6px;
+    color: var(--accent-blue);
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s ease;
+    vertical-align: baseline;
+}
+
+.github-button:hover {
+    opacity: 0.8;
+}
+
+.github-button svg {
+    flex-shrink: 0;
+}
+
+.github-text {
+    color: var(--accent-blue);
+}
+
 .copyright {
     text-align: center;
     color: var(--text-tertiary);
     font-size: 0.875rem;
     padding-top: 12px;
+}
+
+.copyright a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.copyright a:hover {
+    opacity: 0.7;
 }
 
 /* Congratulations Animation */

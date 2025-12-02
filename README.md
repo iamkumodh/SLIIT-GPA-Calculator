@@ -85,7 +85,6 @@ Contributions are always welcome! Whether you find a bug, have a missing module 
 
 - This project uses data based on the **2025 SLIIT Student Handbooks**.
 - [Claude Code](https://www.claude.com/product/claude-code) (Sonnet 4.5) was used to scrape data from PDF files, generate JSON files, and help write advanced JavaScript logic (such as abbreviating course names for the mobile view and congrats message popup).
-- [Tailwind CSS](https://tailwindcss.com/) was used to style the UI.
 - Fonts provided by [Google Fonts](https://fonts.google.com/).
 - Icons used in the interface are SVG based.
 - Logo icon was taken from [Heroicons](https://heroicons.com/).
