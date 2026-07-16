@@ -79,12 +79,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <!-- Styles -->
-    <link rel="stylesheet" href="style.css" />
+    <!-- Fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Red+Hat+Mono:ital,wght@0,400..700;1,400..700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Spectral:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
 
     <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
@@ -133,14 +135,6 @@
             },
             {
               "@type": "Question",
-              "name": "What is the requirement for the Dean's List at SLIIT?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "To be eligible for the Dean's List, a student typically needs a Semester GPA of 3.70 or higher."
-              }
-            },
-            {
-              "@type": "Question",
               "name": "Does this calculator support all SLIIT faculties?",
               "acceptedAnswer": {
                 "@type": "Answer",
@@ -154,23 +148,18 @@
                 "@type": "Answer",
                 "text": "Semester GPA (SGPA) is calculated for a specific semester's performance. Weighted GPA (CGPA) considers all semesters but may apply different weights to different years (e.g., Year 1 might carry less weight than final years, depending on the faculty regulations)."
               }
+            },
+            {
+              "@type": "Question",
+              "name": "What are the passing grades at SLIIT?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "At SLIIT, Grade C and above are considered passing grades. Grades C- and below are considered failing grades."
+              }
             }
           ]
         }
       ]
-    </script>
-
-    <script>
-      // dark mode detection
-      if (
-        localStorage.theme === "dark" ||
-        (!("theme" in localStorage) &&
-          window.matchMedia("(prefers-color-scheme: dark)").matches)
-      ) {
-        document.documentElement.classList.add("dark");
-      } else {
-        document.documentElement.classList.remove("dark");
-      }
     </script>
   </head>
 
@@ -263,26 +252,6 @@
       <div class="info-section">
         <div class="info-grid">
           <div class="info-block">
-            <h2>How to Calculate GPA</h2>
-            <ul class="how-to-steps">
-              <li>
-                Select your <strong>Faculty</strong> from the dropdown menu.
-              </li>
-              <li>
-                Choose your specific <strong>Department</strong> (e.g., SE, CS).
-              </li>
-              <li>
-                For each module in the semester, select your obtained
-                <strong>Grade</strong>.
-              </li>
-              <li>
-                Click <strong>Calculate GPA</strong> to see your Semester GPA
-                and Weighted GPA instantly!
-              </li>
-            </ul>
-          </div>
-
-          <div class="info-block">
             <h2>Official SLIIT Grading Scale</h2>
             <table class="grading-table">
               <thead>
@@ -356,6 +325,70 @@
               </tbody>
             </table>
           </div>
+          <div class="info-block">
+            <h2>How to Calculate GPA</h2>
+            <ul class="how-to-steps" style="margin-bottom: 2rem">
+              <li>
+                Select your <strong>Faculty</strong> from the dropdown menu.
+              </li>
+              <li>
+                Choose your specific <strong>Department</strong> (e.g., SE, CS).
+              </li>
+              <li>
+                For each module in the semester, select your obtained
+                <strong>Grade</strong>.
+              </li>
+              <li>
+                Click <strong>Calculate GPA</strong> to see your Semester GPA
+                and Weighted GPA instantly!
+              </li>
+              <li>
+                Your selections and grades are
+                <strong>automatically saved</strong> for your next visit.
+              </li>
+            </ul>
+
+            <h2>Dean's List & Classification</h2>
+            <div
+              style="
+                margin-bottom: 15px;
+                color: var(--text-secondary);
+                font-family: &quot;Hanken Grotesk&quot;, sans-serif;
+              "
+            >
+              <strong>Dean's List:</strong> Semester GPA ≥ 3.70
+            </div>
+            <table class="grading-table">
+              <thead>
+                <tr>
+                  <th>Degree Classification</th>
+                  <th>WGPA</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>First Class Honours</td>
+                  <td>WGPA ≥ 3.70</td>
+                </tr>
+                <tr>
+                  <td>Second Class Upper</td>
+                  <td>3.30 ≤ WGPA &lt; 3.70</td>
+                </tr>
+                <tr>
+                  <td>Second Class Lower</td>
+                  <td>3.00 ≤ WGPA &lt; 3.30</td>
+                </tr>
+                <tr>
+                  <td>Pass</td>
+                  <td>2.00 ≤ WGPA &lt; 3.00</td>
+                </tr>
+                <tr>
+                  <td>Fail</td>
+                  <td>WGPA &lt; 2.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
 
         <div class="faq-section">
@@ -376,15 +409,7 @@
                 </div>
               </details>
             </div>
-            <div class="faq-item">
-              <details>
-                <summary>What is the GPA required for the Dean's List?</summary>
-                <div class="faq-answer">
-                  To be eligible for the Dean's List, a student typically needs
-                  a Semester GPA of <strong>3.70 or higher</strong>.
-                </div>
-              </details>
-            </div>
+
             <div class="faq-item">
               <details>
                 <summary>
@@ -393,8 +418,18 @@
                 <div class="faq-answer">
                   Yes, this tool supports grading schemes for Computing,
                   Engineering, Business, Architecture, and Humanities & Sciences
-                  faculties. It is updated according to the 2025 Student
-                  Handbook.
+                  faculties. It is updated according to the
+                  <strong>2025 Student Handbook.</strong>
+                </div>
+              </details>
+            </div>
+            <div class="faq-item">
+              <details>
+                <summary>What are the passing grades at SLIIT?</summary>
+                <div class="faq-answer">
+                  Grade <strong>C</strong> and above are considered passing
+                  grades. Grades <strong>C-</strong> and below are considered
+                  failing grades.
                 </div>
               </details>
             </div>
@@ -407,8 +442,10 @@
                   <strong>Semester GPA (SGPA)</strong> reflects your performance
                   in a single semester.
                   <strong>Weighted GPA (WGPA or CGPA)</strong> is the cumulative
-                  average of all your semesters. Note that some faculties at
-                  SLIIT may apply different weightages to different years.
+                  average of all your semesters. Note that Computing
+                  specializations CS and CSE follow a weighted GPA system from
+                  1st year onwards, whereas other Computing programs
+                  <strong>do not </strong>apply it on first year.
                 </div>
               </details>
             </div>
@@ -463,6 +500,9 @@
       </div>
     </div>
 
+    <div id="toastNotification" class="toast-notification">
+      Welcome back! Your previous grades have been restored.
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

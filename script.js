@@ -10,7 +10,7 @@ const facultyMapping = {
 // Store loaded faculty data
 let currentFacultyData = null;
 let moduleData = {};
-const CONGRATS_TITLE_FONT = "italic 400 1em 'Besley'";
+const CONGRATS_TITLE_FONT = "italic 400 1em 'Spectral'";
 const CONGRATS_FONT_WAIT_TIMEOUT_MS = 1200;
 let congratsFontReadyPromise = null;
 const DEANS_LIST_STATUS_CLASSES = [
@@ -83,57 +83,29 @@ function abbreviateModuleName(fullName) {
     /^(.+?)(?:\s*-\s*|\s+)\b([I]+)$/,
   );
 
+  let baseName = nameWithoutParens;
+  let romanSuffix = "";
+
   if (romanNumberMatch) {
-    // Split into base name and roman number
-    const baseName = romanNumberMatch[1].trim();
-    const romanNumber = romanNumberMatch[2];
-
-    const baseWords = baseName.split(" ").filter((word) => word.length > 0);
-
-    // If base is 1 word, return it with the number
-    if (baseWords.length === 1) {
-      return baseWords[0] + "-" + romanNumber;
-    }
-
-    // Abbreviate base name
-    // Skip &, and, -, of, in, for
-    const abbreviated = baseWords
-      .filter(
-        (word) =>
-          word !== "&" &&
-          word !== "and" &&
-          word !== "-" &&
-          word !== "of" &&
-          word !== "in" &&
-          word !== "for",
-      )
-      .map((word) => word.charAt(0).toUpperCase())
-      .join("");
-
-    return abbreviated + "-" + romanNumber;
+    baseName = romanNumberMatch[1].trim();
+    romanSuffix = "-" + romanNumberMatch[2];
   }
 
-  // Split into words
-  const words = nameWithoutParens.split(" ").filter((word) => word.length > 0);
+  const words = baseName.split(" ").filter((word) => word.length > 0);
 
   // If only one word, return it as is
   if (words.length === 1) {
-    return words[0];
+    return words[0] + romanSuffix;
   }
 
-  // Otherwise abbreviate (skip 'and', 'of', '&', '-', 'in', 'for')
-  return words
-    .filter(
-      (word) =>
-        word !== "&" &&
-        word !== "and" &&
-        word !== "-" &&
-        word !== "of" &&
-        word !== "in" &&
-        word !== "for",
-    )
+  // Otherwise abbreviate
+  const skipWords = new Set(["&", "and", "-", "of", "in", "for"]);
+  const abbreviated = words
+    .filter((word) => !skipWords.has(word))
     .map((word) => word.charAt(0).toUpperCase())
     .join("");
+
+  return abbreviated + romanSuffix;
 }
 
 function isMobileDevice() {
@@ -214,6 +186,8 @@ document.addEventListener("DOMContentLoaded", function () {
         let programs = Object.keys(transformed);
 
         // Special handling for Computing faculty
+        let getOptionText = (name) => name;
+
         if (faculty === "COMPUTING") {
           // short names for Computing programs
           const abbreviations = {
@@ -237,29 +211,22 @@ document.addEventListener("DOMContentLoaded", function () {
             .sort();
           programs = [...priorityPrograms, ...otherPrograms];
 
-          departmentSelect.disabled = false;
-          programs.forEach((programName) => {
-            const option = document.createElement("option");
-            option.value = programName;
-            const abbr = abbreviations[programName];
-            option.textContent = abbr
-              ? `${programName} (${abbr})`
-              : programName;
-            departmentSelect.appendChild(option);
-          });
+          getOptionText = (name) =>
+            abbreviations[name] ? `${name} (${abbreviations[name]})` : name;
         } else {
           programs.sort();
-          departmentSelect.disabled = false;
-
-          programs.forEach((programName) => {
-            const option = document.createElement("option");
-            option.value = programName;
-            option.textContent = programName;
-            departmentSelect.appendChild(option);
-          });
         }
+
+        departmentSelect.disabled = false;
+        programs.forEach((programName) => {
+          const option = document.createElement("option");
+          option.value = programName;
+          option.textContent = getOptionText(programName);
+          departmentSelect.appendChild(option);
+        });
       }
     }
+    saveState();
   });
 
   departmentSelect.addEventListener("change", function () {
@@ -268,7 +235,10 @@ document.addEventListener("DOMContentLoaded", function () {
     if (department && moduleData[department]) {
       loadModules(department);
     }
+    saveState();
   });
+
+  restoreState();
 });
 
 function loadModules(programName) {
@@ -415,6 +385,7 @@ function handleGradeChange(select) {
   } else {
     select.classList.remove("grade-entered");
   }
+  saveState();
 }
 
 function calculateGPA() {
@@ -425,10 +396,8 @@ function calculateGPA() {
   let totalCredits = 0;
   let invalidGrade = null;
 
-  gradeSelects.forEach((select) => {
-    if (invalidGrade) {
-      return;
-    }
+  for (const select of gradeSelects) {
+    if (invalidGrade) break;
 
     const grade = select.value;
     const credits = parseInt(select.dataset.credits);
@@ -437,16 +406,13 @@ function calculateGPA() {
     if (grade) {
       if (!Object.prototype.hasOwnProperty.call(gradePoints, grade)) {
         invalidGrade = grade;
-        return;
+        break;
       }
 
       const points = gradePoints[grade] * credits;
 
       if (!semesterData[semester]) {
-        semesterData[semester] = {
-          points: 0,
-          credits: 0,
-        };
+        semesterData[semester] = { points: 0, credits: 0 };
       }
 
       semesterData[semester].points += points;
@@ -458,16 +424,13 @@ function calculateGPA() {
       if (yearMatch) {
         const year = parseInt(yearMatch[1]);
         if (!yearData[year]) {
-          yearData[year] = {
-            points: 0,
-            credits: 0,
-          };
+          yearData[year] = { points: 0, credits: 0 };
         }
         yearData[year].points += points;
         yearData[year].credits += credits;
       }
     }
-  });
+  }
 
   if (invalidGrade) {
     showMessage(
@@ -484,50 +447,8 @@ function calculateGPA() {
 
   const gpa = totalPoints / totalCredits;
 
-  let wgpa = 0;
-
-  // Get WGPA weights
-  if (currentFacultyData && currentFacultyData.wgpaWeights) {
-    const weightKeys = Object.keys(currentFacultyData.wgpaWeights);
-    let selectedWeightKey = weightKeys[0]; // Default to first
-
-    // For FOC
-    const currentProgram = document.getElementById("department").value;
-    if (currentFacultyData.facultyCode === "FOC") {
-      if (
-        currentProgram === "Computer Science" ||
-        currentProgram === "Computer Systems Engineering"
-      ) {
-        const csWeight = weightKeys.find(
-          (k) => k.includes("CS") || k.includes("CSE"),
-        );
-        if (csWeight) selectedWeightKey = csWeight;
-      } else {
-        const itWeight = weightKeys.find((k) => k.includes("IT"));
-        if (itWeight) selectedWeightKey = itWeight;
-      }
-    }
-
-    if (selectedWeightKey) {
-      const weightConfig = currentFacultyData.wgpaWeights[selectedWeightKey];
-
-      // Convert percentage to decimal weights
-      const weights = {};
-      Object.keys(weightConfig).forEach((yearKey) => {
-        const yearNum = parseInt(yearKey.replace("Year", ""));
-        const percentStr = weightConfig[yearKey];
-        const decimal = parseFloat(percentStr.replace("%", "")) / 100;
-        weights[yearNum] = decimal;
-      });
-
-      // Calculate weighted GPA
-      Object.keys(yearData).forEach((year) => {
-        const yearGPA = yearData[year].points / yearData[year].credits;
-        const weight = weights[year] || 0;
-        wgpa += yearGPA * weight;
-      });
-    }
-  }
+  const currentProgram = document.getElementById("department").value;
+  const wgpa = calculateWGPA(yearData, currentFacultyData, currentProgram);
 
   displayResults(gpa, wgpa, semesterData);
 }
@@ -611,13 +532,7 @@ function createConfetti() {
   const confettiContainer = document.querySelector(".confetti");
   confettiContainer.innerHTML = "";
 
-  const colors = [
-    "var(--accent-yellow)",
-    "var(--accent-blue)",
-    "var(--accent-green)",
-    "var(--accent-red)",
-    "var(--text-primary)",
-  ];
+  const colors = ["#16366B", "#E97A24", "#1E4580", "#D4910B", "#FAF7F0"];
   const confettiCount = 50;
 
   for (let i = 0; i < confettiCount; i++) {
@@ -635,27 +550,58 @@ function createConfetti() {
 
     confettiContainer.appendChild(confetti);
   }
+}
 
-  if (!document.getElementById("confetti-animation")) {
-    const style = document.createElement("style");
-    style.id = "confetti-animation";
-    style.textContent = `
-            @keyframes confettiFall {
-                0% {
-                    transform: translateY(0) rotate(0deg);
-                    opacity: 1;
-                }
-                100% {
-                    transform: translateY(600px) rotate(360deg);
-                    opacity: 0;
-                }
-            }
-        `;
-    document.head.appendChild(style);
+function calculateWGPA(yearData, facultyData, currentProgram) {
+  if (!facultyData || !facultyData.wgpaWeights) return 0;
+
+  const weightKeys = Object.keys(facultyData.wgpaWeights);
+  if (weightKeys.length === 0) return 0;
+
+  let selectedWeightKey = weightKeys[0]; // Default to first
+
+  // For FOC
+  if (facultyData.facultyCode === "FOC") {
+    if (
+      currentProgram === "Computer Science" ||
+      currentProgram === "Computer Systems Engineering"
+    ) {
+      const csWeight = weightKeys.find(
+        (k) => k.includes("CS") || k.includes("CSE"),
+      );
+      if (csWeight) selectedWeightKey = csWeight;
+    } else {
+      const itWeight = weightKeys.find((k) => k.includes("IT"));
+      if (itWeight) selectedWeightKey = itWeight;
+    }
   }
+
+  if (!selectedWeightKey) return 0;
+
+  const weightConfig = facultyData.wgpaWeights[selectedWeightKey];
+
+  // Convert percentage to decimal weights
+  const weights = {};
+  for (const [yearKey, percentStr] of Object.entries(weightConfig)) {
+    const yearNum = parseInt(yearKey.replace("Year", ""));
+    const decimal = parseFloat(percentStr.replace("%", "")) / 100;
+    weights[yearNum] = decimal;
+  }
+
+  // Calculate weighted GPA
+  let wgpa = 0;
+  for (const [year, data] of Object.entries(yearData)) {
+    if (data.credits === 0) continue;
+    const yearGPA = data.points / data.credits;
+    const weight = weights[year] || 0;
+    wgpa += yearGPA * weight;
+  }
+
+  return wgpa;
 }
 
 function resetForm() {
+  localStorage.removeItem("sliit_gpa_calculator_state");
   document.getElementById("faculty").value = "";
   document.getElementById("department").value = "";
   document.getElementById("department").disabled = true;
@@ -690,12 +636,14 @@ function hideResults() {
   document.getElementById("resultsSection").classList.remove("active");
 }
 
-function showMessage(type, message) {
-  const element =
-    type === "error"
-      ? document.getElementById("errorMessage")
-      : document.getElementById("successMessage");
+function getMessageElement(type) {
+  return document.getElementById(
+    type === "error" ? "errorMessage" : "successMessage",
+  );
+}
 
+function showMessage(type, message) {
+  const element = getMessageElement(type);
   element.textContent = message;
   element.style.display = "block";
 
@@ -705,32 +653,68 @@ function showMessage(type, message) {
 }
 
 function hideMessage(type) {
-  const element =
-    type === "error"
-      ? document.getElementById("errorMessage")
-      : document.getElementById("successMessage");
-
-  element.style.display = "none";
+  getMessageElement(type).style.display = "none";
 }
 
-// Toggle dark/light mode on double click anywhere
-document.addEventListener("dblclick", function (e) {
-  // Prevent toggling when interacting with form controls or links
-  if (e.target.closest("button, select, input, a")) {
-    return;
-  }
+function saveState() {
+  const faculty = document.getElementById("faculty").value;
+  const department = document.getElementById("department").value;
+  const grades = {};
 
-  const html = document.documentElement;
-  if (html.classList.contains("dark")) {
-    html.classList.remove("dark");
-    localStorage.setItem("theme", "light");
-  } else {
-    html.classList.add("dark");
-    localStorage.setItem("theme", "dark");
-  }
+  const gradeSelects = document.querySelectorAll(".grade-select");
+  gradeSelects.forEach((select) => {
+    if (select.value) {
+      const moduleCode = select.id.replace("grade-", "");
+      grades[moduleCode] = select.value;
+    }
+  });
 
-  // Clear the text selection that naturally occurs on double click
-  if (window.getSelection) {
-    window.getSelection().removeAllRanges();
+  const state = { faculty, department, grades };
+  localStorage.setItem("sliit_gpa_calculator_state", JSON.stringify(state));
+}
+
+async function restoreState() {
+  const saved = localStorage.getItem("sliit_gpa_calculator_state");
+  if (!saved) return;
+
+  try {
+    const state = JSON.parse(saved);
+    if (!state.faculty) return;
+
+    const facultySelect = document.getElementById("faculty");
+    const departmentSelect = document.getElementById("department");
+
+    facultySelect.value = state.faculty;
+    const transformed = await loadFacultyData(state.faculty);
+    if (!transformed) return;
+
+    moduleData = transformed;
+    facultySelect.dispatchEvent(new Event("change"));
+    await new Promise((resolve) => setTimeout(resolve, 50));
+
+    if (!state.department) return;
+
+    departmentSelect.value = state.department;
+    departmentSelect.dispatchEvent(new Event("change"));
+    await new Promise((resolve) => setTimeout(resolve, 50));
+
+    if (!state.grades) return;
+
+    for (const [moduleCode, grade] of Object.entries(state.grades)) {
+      const select = document.getElementById(`grade-${moduleCode}`);
+      if (select) {
+        select.value = grade;
+        handleGradeChange(select);
+      }
+    }
+
+    const toast = document.getElementById("toastNotification");
+    if (toast) {
+      toast.classList.add("active");
+      setTimeout(() => toast.classList.remove("active"), 3000);
+    }
+  } catch (e) {
+    console.error("Failed to restore saved state:", e);
+    localStorage.removeItem("sliit_gpa_calculator_state");
   }
-});
+}
